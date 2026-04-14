@@ -1,0 +1,12 @@
+.idea/
+venv/
+.venv/
+__pycache__/
+*.pyc
+.env
+*.log
+logs/*.json
+.temp_*.json
+.pytest_cache/
+.vscode/
+data/document_template.txt
