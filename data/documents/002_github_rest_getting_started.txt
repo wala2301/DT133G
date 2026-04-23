@@ -1,0 +1,3 @@
+A REST request to GitHub is built from an HTTP method, a path, headers, authentication,
+and parameters when needed. Common methods include GET, POST, DELETE, and PATCH. The
+endpoint documentation explains which method and parameters each operation requires.

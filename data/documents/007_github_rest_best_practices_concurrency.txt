@@ -1,0 +1,3 @@
+GitHub recommends avoiding too many concurrent requests because this can trigger secondary
+rate limits. A safer pattern is to queue requests and process them in a more controlled
+and sequential way.

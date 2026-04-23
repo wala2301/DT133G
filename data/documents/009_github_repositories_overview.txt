@@ -1,0 +1,3 @@
+GitHub provides REST endpoints for managing repositories. These endpoints support
+operations such as listing repositories, reading repository metadata, and working with
+repository-level settings and resources.

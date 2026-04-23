@@ -1,0 +1,21 @@
+{
+  "001_github_rest_overview.txt": "https://docs.github.com/en/rest",
+  "002_github_rest_getting_started.txt": "https://docs.github.com/en/rest/using-the-rest-api/getting-started-with-the-rest-api",
+  "003_github_rest_authentication.txt": "https://docs.github.com/en/rest/authentication",
+  "004_github_rest_rate_limits.txt": "https://docs.github.com/en/rest/using-the-rest-api/rate-limits-for-the-rest-api",
+  "005_github_rest_best_practices_auth.txt": "https://docs.github.com/en/rest/using-the-rest-api/best-practices-for-using-the-rest-api",
+  "006_github_rest_best_practices_polling.txt": "https://docs.github.com/en/rest/using-the-rest-api/best-practices-for-using-the-rest-api",
+  "007_github_rest_best_practices_concurrency.txt": "https://docs.github.com/en/rest/using-the-rest-api/best-practices-for-using-the-rest-api",
+  "008_github_rest_best_practices_mutative_requests.txt": "https://docs.github.com/en/rest/using-the-rest-api/best-practices-for-using-the-rest-api",
+  "009_github_repositories_overview.txt": "https://docs.github.com/en/rest/repos/repos",
+  "010_github_list_org_repositories.txt": "https://docs.github.com/en/rest/repos/repos",
+  "011_github_repository_permissions.txt": "https://docs.github.com/en/rest/repos/repos",
+  "012_github_repository_contents.txt": "https://docs.github.com/en/rest/repos/contents",
+  "013_github_repository_statistics.txt": "https://docs.github.com/en/rest/metrics/statistics",
+  "014_stackexchange_api_overview.txt": "https://api.stackexchange.com/docs",
+  "015_stackexchange_questions_endpoint.txt": "https://api.stackexchange.com/docs/questions",
+  "016_stackexchange_answers_endpoint.txt": "https://api.stackexchange.com/docs/answers",
+  "017_stackexchange_question_type.txt": "https://api.stackexchange.com/docs/types/question",
+  "018_stackexchange_answer_type.txt": "https://api.stackexchange.com/docs/types/answer"
+
+}

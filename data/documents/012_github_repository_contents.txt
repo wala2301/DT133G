@@ -1,0 +1,4 @@
+The repository contents endpoints allow clients to retrieve the contents of a file or
+directory in a repository. If the path is omitted, the API returns the contents of the
+repository root. The same section also describes how content can be created, updated, or
+deleted.

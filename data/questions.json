@@ -1,0 +1,17 @@
+[
+  {"id": 1, "question": "How do I authenticate to the GitHub REST API?", "type": "direct"},
+  {"id": 2, "question": "What is the best way to avoid rate limit issues in GitHub API?", "type": "paraphrased"},
+  {"id": 3, "question": "Why should I not send too many API requests at the same time?", "type": "indirect"},
+  {"id": 4, "question": "What are the main components of a REST API request?", "type": "direct"},
+  {"id": 5, "question": "How can I list repositories for an organization in GitHub?", "type": "direct"},
+  {"id": 6, "question": "What happens if I do not authenticate API requests?", "type": "indirect"},
+  {"id": 7, "question": "Why should developers use webhooks instead of polling?", "type": "indirect"},
+  {"id": 8, "question": "How can I get the contents of a file in a repository?", "type": "direct"},
+  {"id": 9, "question": "What is the purpose of repository statistics endpoints?", "type": "direct"},
+  {"id": 10, "question": "How does Stack Exchange API provide questions?", "type": "direct"},
+  {"id": 11, "question": "What types of tokens can be used in GitHub API?", "type": "direct"},
+  {"id": 12, "question": "Why is it recommended to avoid unnecessary polling?", "type": "paraphrased"},
+  {"id": 13, "question": "What does the answers endpoint return in Stack Exchange API?", "type": "direct"},
+  {"id": 14, "question": "Why are some repository fields not visible to all users?", "type": "indirect"},
+  {"id": 15, "question": "What is the role of query parameters in API requests?", "type": "direct"}
+]
