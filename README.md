@@ -317,10 +317,9 @@ Additionally, the retrieval module includes exception handling to prevent system
 If no relevant documentation is found, the system displays a clear message to the user instead of a blank or failed response.
 
 
-The evaluation process was carried out using several independent scripts. `run_full_evaluation.py` was used to 
-evaluate each retrieval method individually, and then `run_comparison.py` was used to perform a statistical comparison 
-between the three methods. The system was also run via **FastAPI** for testing in an interactive environment, 
-and automated tests were used to verify performance requirements.
+The evaluation process was carried out using several independent. **``run_full_evaluation.py``** was used to 
+evaluate each retrieval method individually, and then **``run_comparison.py``** was used to perform a statistical comparison 
+between the three methods.
 
 
 
