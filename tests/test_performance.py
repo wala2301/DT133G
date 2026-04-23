@@ -12,7 +12,7 @@ def test_nfr1_average_response_time_under_3_seconds(monkeypatch):
     def fake_retrieve_context_bundle(question: str, top_k: int | None = None):
         return ["Context row 1", "Context row 2"], [{"doc_id": 0, "preview": "Context row 1"}]
 
-    monkeypatch.setattr("app.api.routes.retrieve_context_bundle", fake_retrieve_context_bundle)
+    monkeypatch.setattr("app.api.routes.retrieval_system.retrieve_context_bundle", fake_retrieve_context_bundle)
     monkeypatch.setattr("app.api.routes.generate_answer", lambda question, context: "fast answer")
     monkeypatch.setattr("app.api.routes.log_conversation", lambda *args, **kwargs: None)
 

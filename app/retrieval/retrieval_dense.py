@@ -1,18 +1,18 @@
-from sklearn.feature_extraction.text import TfidfVectorizer
+from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 from app.retrieval.retrieval_base import BaseRetriever
-from config import RETRIEVAL_TOP_K, Data_DOC_PATH
 from app.retrieval.retrieval_utils import load_documents, validate_question
+from config import RETRIEVAL_TOP_K, DENSE_MODEL_NAME
 
-
-# Retrieval based on TF-IDF and cosine similarity.
-class TFIDFRetriever(BaseRetriever):
+# A semantic retrieval that relies on embeddings using SentenceTransformer.
+class DenseRetriever(BaseRetriever):
 
     def __init__(self):
         self.documents = load_documents()
         self.doc_texts = [doc["text"] for doc in self.documents]
-        self.vectorizer = TfidfVectorizer(stop_words="english")
-        self.doc_vectors = self.vectorizer.fit_transform(self.doc_texts)
+
+        self.model = SentenceTransformer(DENSE_MODEL_NAME)
+        self.doc_embeddings = self.model.encode(self.doc_texts)
 
     def retrieve(self, question: str, top_k: int | None = None):
         valid, result = validate_question(question)
@@ -21,8 +21,8 @@ class TFIDFRetriever(BaseRetriever):
             return [], []
 
         question = result
-        question_vector = self.vectorizer.transform([question])
-        similarities = cosine_similarity(question_vector, self.doc_vectors)[0]
+        question_embedding = self.model.encode([question])
+        similarities = cosine_similarity(question_embedding, self.doc_embeddings)[0]
 
         effective_top_k = top_k or RETRIEVAL_TOP_K
         safe_top_k = max(1, min(effective_top_k, len(self.documents)))
@@ -40,4 +40,3 @@ class TFIDFRetriever(BaseRetriever):
         ]
 
         return context, references
-
