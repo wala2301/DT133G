@@ -5,8 +5,8 @@ from dotenv import load_dotenv
 # Project general settings file
 load_dotenv()
 
-# Ensure system component interchangeability
-RETRIEVAL_METHOD = os.getenv("RETRIEVAL_METHOD", "tfidf")
+# Ensure system component interchangeability (tfidf / bm25 / dense)
+RETRIEVAL_METHOD = os.getenv("RETRIEVAL_METHOD", "dense")
 
 
 # LLM configuration
@@ -27,3 +27,5 @@ LOG_CLEANUP_EVERY_N_WRITES: int = int(os.getenv("LOG_CLEANUP_EVERY_N_WRITES", 20
 
 # Key to encrypt questions and answers
 FERNET_KEY = os.getenv("FERNET_KEY")
+
+DENSE_MODEL_NAME = os.getenv("DENSE_MODEL_NAME", "all-MiniLM-L6-v2")

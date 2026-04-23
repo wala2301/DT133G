@@ -1,18 +1,17 @@
-from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.metrics.pairwise import cosine_similarity
+from rank_bm25 import BM25Okapi
 from app.retrieval.retrieval_base import BaseRetriever
-from config import RETRIEVAL_TOP_K, Data_DOC_PATH
 from app.retrieval.retrieval_utils import load_documents, validate_question
+from config import RETRIEVAL_TOP_K
 
 
-# Retrieval based on TF-IDF and cosine similarity.
-class TFIDFRetriever(BaseRetriever):
+# A BM25-based retrieval system.
+class BM25Retriever(BaseRetriever):
 
     def __init__(self):
         self.documents = load_documents()
         self.doc_texts = [doc["text"] for doc in self.documents]
-        self.vectorizer = TfidfVectorizer(stop_words="english")
-        self.doc_vectors = self.vectorizer.fit_transform(self.doc_texts)
+        self.tokenized_docs = [text.lower().split() for text in self.doc_texts]
+        self.bm25 = BM25Okapi(self.tokenized_docs)
 
     def retrieve(self, question: str, top_k: int | None = None):
         valid, result = validate_question(question)
@@ -21,13 +20,13 @@ class TFIDFRetriever(BaseRetriever):
             return [], []
 
         question = result
-        question_vector = self.vectorizer.transform([question])
-        similarities = cosine_similarity(question_vector, self.doc_vectors)[0]
+        tokenized_query = question.lower().split()
+        scores = self.bm25.get_scores(tokenized_query)
 
         effective_top_k = top_k or RETRIEVAL_TOP_K
         safe_top_k = max(1, min(effective_top_k, len(self.documents)))
 
-        ranked_indices = similarities.argsort()[-safe_top_k:][::-1]
+        ranked_indices = scores.argsort()[-safe_top_k:][::-1]
 
         context = [self.documents[i]["text"] for i in ranked_indices]
         references = [
@@ -40,4 +39,3 @@ class TFIDFRetriever(BaseRetriever):
         ]
 
         return context, references
-
