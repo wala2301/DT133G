@@ -1,0 +1,3 @@
+The /answers endpoint returns undeleted answers in the system. It supports sorting by
+activity, creation date, or votes, which allows researchers to select strong candidate
+answers for evaluation datasets.

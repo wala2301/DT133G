@@ -1,0 +1,3 @@
+The 'List organization repositories' endpoint returns repositories for a given
+organization. It accepts an organization name and supports filtering by repository type,
+such as all, public, private, forks, sources, or member repositories.

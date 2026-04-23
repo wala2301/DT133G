@@ -1,11 +1,17 @@
-# DT002G
+
 ## Environment & Tools
 - Windows 10 on ASUS
 - Git version 2.42.0.Windows.2
 - Python 3
 - FastAPI for building REST APIs 
 - Pydantic for data validation 
-- scikit-learn for building retrieval models 
+- scikit-learn for building retrieval models TF-IDF
+- rank-bm25 for BM25
+- sentence-transformers for Dense retrieval
+- ROUGE library for evaluation of answer
+- BERTScore library for evaluation of answer
+- SciPy (ANOVA, Kruskal-Wallis) for statistical Analysis
+- NumPy
 - Pytest for system testing 
 - Virtual Environment for environment isolation
 - Uvicorn for running server
@@ -25,6 +31,23 @@
 	```
 	python -m pytest -v
 	```
+6. Run the only retrieval evaluation for each retrieval method:
+    ```
+    python -m app.evaluation.run_retrieval_eval
+    ```
+7. Run the evaluation for only the answer:
+    ```
+   python -m app.evaluation.run_answer_eval
+    ```
+8. Run the full evaluation for each retrieval method:
+   ```
+   python -m app.evaluation.run_full_evaluation
+   ```
+9. Run a statistical comparison between methods:
+   ```
+    python -m app.evaluation.run_comparison
+   ```
+
 
 ## Environment Variables (.env)
 The app can run without external LLM credentials, but for full LLM integration set the values in `.env`:
@@ -43,20 +66,48 @@ The app can run without external LLM credentials, but for full LLM integration s
 
 
 ## Purpose
-This project aims to design and implement a backend system based on the Retrieval-Augmented Generation concept, enabling it to:
-- Receive user queries via API
-- Search within knowledge base
-- Reproduce answers based on retrieved information
+The project aims to design and evaluate the backend architecture of a conversational AI system based on 
+**``Retrieval-Augmented Generation``** **RAG**, focusing on small corpus scenarios in software engineering.
+The primary scientific objective is to generate knowledge about:
+- How the choice of retrieval strategy **``TF-IDF, BM25, Dense Retrieval``** affects system quality.
+- Whether the use of complex retrieval techniques such as **``Dense Retrieval``** is justified in small corpus.
+- The extent of the relationship between retrieval quality and final response quality.
+
+The project also aims to address a known problem in language models, such as `hallucination`, by providing the model 
+with context retrieved from reliable sources such as GitHub documentation och Stack Overflow / Stack Exchange API.
 
 ### Concrete Goals
-- FR1: Design and implement a backend API for receiving queries.
-- FR2: Develop a component for retrieving information from the knowledge base.
-- FR3: Build a structured prompt from retrieved context and user question before sending to the LLM.
-- FR4: Generate and return an answer in JSON format via the API.
-- FR5: Development of an anonymized conversation recording system for privacy and to protect sensitive data.
-- FR6: Configurable Retrieval Parameters.
+- Implement three retrieval strategies within the same RAG system.
+- Build an evaluation dataset containing questions, answers, and relevance labels.
+- Measure retrieval quality using Precision@k, Recall@k, and NDCG.
+- Measure answer quality using ROUGE-L and BERTScore.
+- Measure response time for each method.
+- Analyze the relationship between retrieval quality and answer quality.
+- Compare results using statistical analysis.
 
+A set of measurable and actionable objectives was defined:
+##### System Objectives:
+- Building an API using FastAPI to receive questions.
+- Implementing three retrieval methods **``TF-IDF, BM25, and Dense Retrieval using sentence-transformers``**.
+- Linking retrieval to an answer generation model **LLM**.
 
+##### Data Objectives:
+Building a corpus from:
+- GitHub REST API documentation https://docs.github.com/en/rest
+- Stack Exchange API documentation https://api.stackexchange.com
+
+##### Establish clear selection criteria:
+- Document length must be from 1 to 3 paragraphs.
+- Relevance to a specific programming field.
+- Content clarity.
+
+##### Assessment Objectives:
+- Evaluate recall using **``Precision@k, Recall@k, and NDCG@k``**.
+- Evaluate responses using **``ROUGE-L and BERTScore``**.
+
+##### Statistical Analysis Objectives:
+- Test normality using **``Shapiro-Wilk``**, where **ANOVA** is chosen if data are normal, and **Kruskal-Wallis** if data are not normal.
+- Calculate effect size using **Cohen's d**.
 
 ## Procedures
 Modular architecture was used to increase maintainability and ease of future expansion, where the following were separated:
@@ -72,7 +123,7 @@ An endpoint was implemented using **``@router.post("/ask", response_model=Questi
 After that, the API was tested using TestClient to verify request success, the present of "answer" key and to confirm that the result is text.
 
 #### Development of a Knowledge Base Retrieval Component (FR2)
-At the first a **``knowledge base``** related medical information was created by creating a **``document.txt``** file containing medical information, and each line represents an independent document.
+At the first a **``knowledge base``** related software engineering  information was created by creating a **``document.txt``** file containing software engineering  information, and each line represents an independent document.
 Then the documents were loaded and each line was read as a separate document & stored in a list. 
 The TF-IDF model was built once when the application was running to improve performance.
 
@@ -149,23 +200,76 @@ In the initial version of the system, all operations, such as document loading, 
 validation, were written as independent functions. While this approach worked correctly, it made it difficult to later 
 expand the system or add new retrieval methods.
 
-To ensure scalability, the code was restructured using object-oriented programming, creating the **``TFIDFRetriever``** class,
-which contains all the functions related to the retrieval process to achieve a more structured and scalable design.
+To ensure scalability, the code was restructured using object-oriented programming, creating the **``retrieval_tfidf.py``**,
+which contains all the functions related to the retrieval process using **``TF-IDF``** representation and cosine similarity measurement.
 
 All retrieval-related operations are consolidated into a single component, making the code more organized, 
 easier to understand, and easier to maintain. This allows for the future development of different retrieval algorithms, 
 such as Embedding Retrievers or Hybrid Retrievers, while maintaining the same **``retrieve``** interface.
 This helps meet scalability and component interchangeability requirements.
 
-An intermediate component called **``RetrievalRouter``** was also created, responsible for selecting the appropriate retrieval 
+An intermediate component called **``retrieval_router.py``** was also created, responsible for selecting the appropriate retrieval 
 algorithm based on the system settings in **``config.py``**.
 
 The **``config.py``** file serves as a central configuration file to define the retrieval method used in the system, 
 which allows for easy modification of the retrieval method simply by adjusting the settings, without needing to change the core application code.
 
+The **``retrieval_utils.py``** load the documents from data and through it, verify the question (input) before passing it to the retrieval system.
+
 The API layer was separated from the retrieval layer. The API only interacts with the **``RetrievalRouter``** and does not need to know 
 the details of the retrieval algorithm being used.
 
+In the **``retrieval_bm25.py``** the **``BM25``** retrieval method was implemented which is a probabilistic development of sparse retrieval.
+
+
+In the **``retrieval_dense.py``** the semantic retrieval using **``embeddings``** was implemented and is used to 
+study the effect of transitioning from verbal matching to semantic representation.
+
+
+The **``metrics.py``** contains the metrics used to evaluate retrieval quality and response quality, where it contains 
+all the core evaluation functions used in the project. This included retrieval evaluation metrics such as 
+**``Precision@k, Recall@k, and NDCG@k``**, as well as answer evaluation metrics such as **``ROUGE-L and BERTScore``**.
+
+The **``run_retrieval_evaluation.py``** was used to evaluate retrieval quality independently of the generation phase. 
+This allowed for the isolation of the retrieval component's performance and the measurement of its ability to retrieve 
+correct documents using metrics such as **``Precision@k, Recall@k, and NDCG@k``**, without interference from the 
+quality of the linguistic model's output.
+
+
+The **``run_answer_evaluation.py``** was used to evaluate the quality of the final answers generated by the system. 
+In this phase, the appropriate context for each question is first retrieved using the specified retrieval method, 
+and then the context is passed to the generation component to produce the answer. The resulting answer is then compared 
+to the reference answer using `ROUGE-L` and `BERTScore`, and the final averages for each retrieval method are calculated.
+
+
+The **``run_full_evaluation.py``** represents the central phase of the evaluation, combining retrieval, generation, 
+and quantitative evaluation into a unified procedure. This file loads the questions and the ground truth, runs the 
+specified retrieval method, generates the answers, calculates retrieval and answer metrics, and measures retrieval time, 
+generation time, and total time. The detailed results and final summaries are then saved in **JSON** and **CSV** files. 
+The resulting values are used to check normality and analyze the relationship between retrieval and answer quality.
+
+After evaluating each retrieval method individually, the **``run_comparison.py``** was used to perform a statistical 
+comparison between the three methods across all metrics. This file reads the results from `TF-IDF`, `BM25`, and `Dense`, 
+then applies an appropriate statistical test to each metric and calculates the effect sizes between each pair of methods 
+using `Cohen's d`. The results are saved in **JSON** and **CSV** files for use in the final report.
+
+
+The **``statistics_analysis.py``** was implemented to perform statistical analysis on the evaluation results. 
+It contains the functions necessary to examine data properties, select appropriate statistical tests, and analyze 
+effect size. Where through its checks for normality using **``Shapiro-Wilk``** and then selecting the appropriate test 
+to compare the methods depending on the nature of the data, where if the data is normal the **``ANOVA``** is used 
+but if the data is not normal the **``Kruskal-Wallis``** is used. **``Cohen's d``** was used to estimate the 
+effect size between pairs of methods, and correlation analysis `Pearson` or `Spearman` was used to examine the 
+relationship between recall quality and response quality.
+
+The evaluation logic is separated into several independent files to improve the clarity of the software structure and 
+its reusability. The **``metrics.py``** contains the basic functions for calculating retrieval and answer metrics, 
+while **``run_retrieval_evaluation.py``** is dedicated to evaluating retrieval only, and **``run_answer_evaluation.py``** to 
+evaluating answer quality. The **``run_full_evaluation.py``** was configured to perform a complete evaluation of a 
+single retrieval method, including retrieval, generation, evaluation, and time measurement. 
+Subsequently, the **``run_comparison.py``** was used to perform a statistical comparison between the three methods, 
+while **``statistics_analysis.py``** collected the necessary statistical tools to examine normality, select the 
+appropriate test, and calculate correlation and effect size.
 
 
 ## Discussion
@@ -212,8 +316,12 @@ User queries are validated before processing to prevent the entry of empty data,
 Additionally, the retrieval module includes exception handling to prevent system crashes if errors occur during vector conversion or similarity calculations.
 If no relevant documentation is found, the system displays a clear message to the user instead of a blank or failed response.
 
-Using **``python -m pytest -v``** all tests were run and their success was confirmed.
-Using **``uvicorn main:app --reload``** the program was run. 
+
+The evaluation process was carried out using several independent. **``run_full_evaluation.py``** was used to 
+evaluate each retrieval method individually, and then **``run_comparison.py``** was used to perform a statistical comparison 
+between the three methods.
+
+
 
 ### Example API Request
 ```

@@ -1,0 +1,3 @@
+In the Stack Exchange API, the answer type represents an answer to a site question. It can
+be combined with question data and, when needed, comments, making it useful for building
+question-answer pairs.

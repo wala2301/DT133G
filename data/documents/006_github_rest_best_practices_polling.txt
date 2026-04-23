@@ -1,0 +1,3 @@
+GitHub advises developers to avoid polling the API unnecessarily. Instead, it recommends
+using webhooks where possible so integrations can react to events without repeatedly
+querying the same resources.

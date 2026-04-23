@@ -1,0 +1,4 @@
+The /questions endpoint returns questions from a Stack Exchange site and supports flexible
+filtering across the corpus. Queries can be constrained by sort order, score, and date
+range, which makes it useful for building realistic software engineering question
+datasets.

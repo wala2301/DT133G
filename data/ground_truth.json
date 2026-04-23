@@ -1,0 +1,17 @@
+[
+  {"question_id": 1, "reference_answer": "Authentication is done using tokens like personal access tokens or GitHub App tokens.", "relevant_docs": ["003_github_rest_authentication"]},
+  {"question_id": 2, "reference_answer": "Using authenticated requests and avoiding excessive requests helps prevent rate limits.", "relevant_docs": ["004_github_rest_rate_limits","005_github_rest_best_practices_auth"]},
+  {"question_id": 3, "reference_answer": "Too many concurrent requests can trigger secondary rate limits.", "relevant_docs": ["007_github_rest_best_practices_concurrency"]},
+  {"question_id": 4, "reference_answer": "A REST request includes method, path, headers, authentication, and parameters.", "relevant_docs": ["002_github_rest_getting_started"]},
+  {"question_id": 5, "reference_answer": "The list organization repositories endpoint returns repositories for a given organization.", "relevant_docs": ["010_github_list_org_repositories"]},
+  {"question_id": 6, "reference_answer": "Unauthenticated requests have lower rate limits and less access.", "relevant_docs": ["003_github_rest_authentication","005_github_rest_best_practices_auth"]},
+  {"question_id": 7, "reference_answer": "Webhooks are recommended instead of polling to avoid repeated requests.", "relevant_docs": ["006_github_rest_best_practices_polling"]},
+  {"question_id": 8, "reference_answer": "Repository contents endpoints return file or directory contents.", "relevant_docs": ["012_github_repository_contents"]},
+  {"question_id": 9, "reference_answer": "Repository statistics endpoints provide data about repository activity.", "relevant_docs": ["013_github_repository_statistics"]},
+  {"question_id": 10, "reference_answer": "The questions endpoint returns questions with filters like score and date.", "relevant_docs": ["015_stackexchange_questions_endpoint"]},
+  {"question_id": 11, "reference_answer": "GitHub supports personal tokens, app tokens, and GITHUB_TOKEN.", "relevant_docs": ["003_github_rest_authentication"]},
+  {"question_id": 12, "reference_answer": "Polling should be avoided to reduce unnecessary API calls.", "relevant_docs": ["006_github_rest_best_practices_polling"]},
+  {"question_id": 13, "reference_answer": "The answers endpoint returns undeleted answers.", "relevant_docs": ["016_stackexchange_answers_endpoint"]},
+  {"question_id": 14, "reference_answer": "Some fields require higher permissions to be visible.", "relevant_docs": ["011_github_repository_permissions"]},
+  {"question_id": 15, "reference_answer": "Query parameters provide additional information for requests.", "relevant_docs": ["002_github_rest_getting_started"]}
+]
