@@ -1,0 +1,8 @@
+REST and GraphQL are two popular approaches to designing web APIs with different
+trade-offs. REST uses fixed endpoints that return predetermined data shapes, making it
+simple to cache and straightforward to understand but sometimes requiring multiple round
+trips to fetch related resources. GraphQL provides a single endpoint where clients specify
+exactly the fields they need in a query, eliminating over-fetching and under-fetching at
+the cost of more complex server implementation and caching. REST remains the dominant
+choice for public APIs, while GraphQL is often preferred for complex client applications
+that aggregate data from multiple resource types.

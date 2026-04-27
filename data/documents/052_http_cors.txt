@@ -1,0 +1,7 @@
+Cross-Origin Resource Sharing (CORS) is a browser security mechanism that controls how
+resources on one origin can be requested from a different origin. When a browser sends a
+cross-origin request, it includes an Origin header, and the server must respond with an
+Access-Control-Allow-Origin header to authorize the request. For HTTP methods other than
+simple ones, the browser first sends a preflight OPTIONS request to check whether the
+actual request is permitted. CORS is configured on the server side, and REST APIs that
+serve browser-based clients must include appropriate CORS headers in their responses.

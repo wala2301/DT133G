@@ -1,0 +1,8 @@
+Code review is a systematic examination of source code by one or more developers other
+than the author, aimed at finding defects and improving quality before merging. Effective
+reviews focus on correctness, clarity, test coverage, and adherence to project
+conventions rather than style preferences, which should be enforced automatically by
+linters. Reviewers should provide specific, actionable, and constructive feedback and
+distinguish between blocking issues and optional suggestions. Research by Rigby and Bird
+found that smaller, more frequent reviews under 400 lines of changed code are more
+effective at finding defects than large, infrequent ones.

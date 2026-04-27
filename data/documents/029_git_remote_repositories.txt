@@ -1,0 +1,6 @@
+Remote repositories in Git are versions of a project hosted on a server or network
+location. The git remote command manages connections to these remote repositories,
+and origin is the conventional name for the primary remote. Fetching and pulling bring
+changes from a remote into the local repository, while pushing uploads local commits
+to the remote. Remote-tracking branches such as origin/main reflect the last known
+state of a remote branch.

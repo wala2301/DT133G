@@ -1,0 +1,5 @@
+A Docker image is a read-only template used to create containers. Images are built
+from a Dockerfile, which defines the base operating system, dependencies, and
+application code to include. Images are layered, meaning each instruction in a
+Dockerfile adds a new layer on top of the previous one. Docker Hub and other
+registries allow images to be shared and reused across teams and environments.

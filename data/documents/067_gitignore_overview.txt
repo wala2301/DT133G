@@ -1,0 +1,7 @@
+A .gitignore file tells Git which files and directories to exclude from version control.
+Patterns in .gitignore use glob syntax, where a leading slash anchors the pattern to the
+repository root and a trailing slash matches only directories. Common entries include
+build output directories, virtual environment folders, compiled binaries, and files
+containing secrets such as .env files. GitHub and the gitignore.io service provide
+template .gitignore files for many languages and frameworks that serve as a starting
+point.

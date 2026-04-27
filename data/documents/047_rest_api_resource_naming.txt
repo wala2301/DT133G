@@ -1,0 +1,7 @@
+RESTful API design guidelines recommend using nouns rather than verbs in resource URIs
+and structuring paths to reflect resource hierarchies. Collections should be named with
+plural nouns such as /users, and individual resources should be identified by a unique
+identifier in the path such as /users/42. Nesting paths such as /users/42/posts should
+reflect a clear ownership relationship but should not exceed two levels to maintain
+readability. Query parameters should be used for filtering, sorting, and pagination
+rather than embedding these concerns in the path.

@@ -1,0 +1,7 @@
+In FastAPI, request bodies are declared by annotating a function parameter with a Pydantic
+model. FastAPI reads the request body as JSON, validates it against the model's field
+definitions, and passes the resulting model instance to the handler function. If
+validation fails, FastAPI automatically returns a 422 Unprocessable Entity response with
+details about which fields failed and why. The Field() function within Pydantic models
+allows additional metadata such as examples, descriptions, and constraints to be declared
+and reflected in the generated OpenAPI documentation.

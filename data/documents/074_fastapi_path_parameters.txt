@@ -1,0 +1,7 @@
+FastAPI path parameters are declared by placing a parameter name in curly braces in the
+route path, for example /items/{item_id}, and adding a matching function parameter. The
+type annotation of the parameter determines automatic validation and conversion; annotating
+item_id as int causes FastAPI to parse the path segment as an integer and return a 422
+Unprocessable Entity response if it cannot be converted. Enum subclasses can be used as
+the parameter type to restrict valid values to a predefined set. Path parameters are
+documented automatically in the generated OpenAPI schema.

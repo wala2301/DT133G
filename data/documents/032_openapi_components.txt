@@ -1,0 +1,6 @@
+The components section of an OpenAPI document provides reusable definitions for schemas,
+parameters, responses, request bodies, and security schemes. References to components
+are made using the $ref keyword, which avoids repeating the same definition throughout
+the document. Centralizing definitions in components improves consistency and reduces
+duplication across a large API specification. Schemas defined in components typically
+follow the JSON Schema standard.

@@ -1,0 +1,7 @@
+The async and await keywords in Python define and consume coroutines, which are functions
+that can be suspended and resumed without blocking the event loop. An async def function
+defines a coroutine, and await pauses execution until the awaited operation completes.
+asyncio.run() is the standard entry point for running the top-level coroutine of an async
+program. Mixing synchronous blocking calls inside an async function blocks the entire
+event loop and negates the benefits of the asynchronous model; CPU-bound work should be
+offloaded to a thread or process pool using asyncio.to_thread or run_in_executor.

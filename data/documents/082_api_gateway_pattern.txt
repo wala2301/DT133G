@@ -1,0 +1,7 @@
+An API gateway is an architectural pattern where a single entry point handles all client
+requests to a set of backend services. The gateway routes requests to the appropriate
+service and handles cross-cutting concerns such as authentication, rate limiting, logging,
+and SSL termination, and can aggregate responses from multiple services. Using a gateway
+simplifies client code by providing a unified API surface rather than requiring clients
+to know the addresses and contracts of each backend service. Common implementations
+include AWS API Gateway, Kong, and NGINX.

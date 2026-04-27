@@ -1,0 +1,8 @@
+HTTP caching reduces server load and improves response times by storing copies of
+responses and serving them for subsequent equivalent requests. The Cache-Control header
+is the primary mechanism for controlling caching behavior, with directives such as
+max-age, no-cache, no-store, and public or private. The ETag response header provides
+a validator that clients send in If-None-Match request headers to perform conditional
+requests, allowing the server to return 304 Not Modified when the resource has not
+changed. Proper cache configuration is critical for API performance, especially for
+read-heavy endpoints with infrequently changing data.

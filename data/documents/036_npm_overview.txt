@@ -1,0 +1,6 @@
+npm (Node Package Manager) is the default package manager for the Node.js runtime
+environment and hosts the world's largest software registry. It provides a CLI for
+installing, publishing, and managing JavaScript packages. The npm install command
+downloads packages and records them in package.json and package-lock.json files. npm
+scripts allow developers to define and run build, test, and development commands
+directly from the command line.

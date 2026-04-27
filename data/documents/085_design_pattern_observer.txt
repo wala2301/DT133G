@@ -1,0 +1,6 @@
+The Observer design pattern defines a one-to-many dependency so that when one object (the
+subject) changes state, all dependents (observers) are notified automatically. This is
+the structural basis for event-driven systems, pub/sub messaging, and reactive programming
+frameworks. In Python, observer behavior is commonly implemented with callback lists or
+event emitters in libraries such as pyee. The pattern promotes loose coupling because the
+subject does not need to know the concrete types of its observers.

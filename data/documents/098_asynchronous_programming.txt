@@ -1,0 +1,7 @@
+Asynchronous programming allows a program to initiate a long-running operation and
+continue executing other work while waiting for it to complete, rather than blocking the
+thread. This model is particularly efficient for I/O-bound tasks such as network requests
+and file operations, where the CPU would otherwise be idle. Python's asyncio library and
+the async/await syntax provide the infrastructure for writing asynchronous programs.
+Frameworks such as FastAPI and aiohttp are built on asyncio and can handle many concurrent
+connections with a small number of threads, making them well-suited for API workloads.

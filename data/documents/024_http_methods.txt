@@ -1,0 +1,5 @@
+HTTP defines several request methods that indicate the desired action for a given
+resource. GET retrieves data without modifying server state, while POST submits data
+to create or process a resource. PUT replaces a resource entirely, PATCH applies
+partial modifications, and DELETE removes a resource. Idempotent methods such as GET,
+PUT, and DELETE produce the same result regardless of how many times they are called.

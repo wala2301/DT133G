@@ -1,0 +1,8 @@
+Environment variables are key-value pairs provided to a process by its operating
+environment at startup, used to configure application behavior without modifying code.
+They are the recommended mechanism in the Twelve-Factor App methodology for storing
+configuration that varies between deployment environments such as development, staging,
+and production. Sensitive values such as API keys and database passwords should always
+be supplied through environment variables rather than hardcoded in source code or
+committed to version control. In Python, environment variables are accessed via os.environ
+or the python-dotenv library, which loads variables from a .env file.

@@ -1,0 +1,7 @@
+API versioning allows a service to evolve without breaking existing clients. Common
+strategies include URI versioning such as /v1/users, request header versioning using a
+custom header such as API-Version, and media type versioning using the Accept header.
+URI versioning is the most visible and easiest to test but couples the version to the
+URL structure. Regardless of strategy, the API documentation should clearly state
+supported versions, the deprecation timeline for old versions, and migration guidance
+for clients.

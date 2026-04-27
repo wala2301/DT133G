@@ -1,0 +1,7 @@
+pytest fixtures are reusable setup components that are injected into test functions via
+function parameters matching the fixture name. Fixtures can have different scopes:
+function (default, recreated each test), class, module, or session (shared across the
+entire test run). The yield keyword in a fixture allows teardown code to run after the
+test completes, making fixtures suitable for managing resources such as database
+connections or temporary files. Fixtures can depend on other fixtures, and pytest
+automatically resolves the dependency graph and manages their lifetimes.

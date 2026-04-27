@@ -1,0 +1,7 @@
+Python packaging refers to the process of distributing Python code as installable
+packages. The modern standard uses a pyproject.toml file to define project metadata,
+build system requirements, and dependencies, replacing the older setup.py approach. The
+build tool reads pyproject.toml to produce source distributions and wheel files that can
+be uploaded to PyPI or installed directly with pip. The hatchling, flit, and setuptools
+backends are common choices for the build-system field in pyproject.toml, and tools such
+as uv and poetry integrate dependency management with packaging.

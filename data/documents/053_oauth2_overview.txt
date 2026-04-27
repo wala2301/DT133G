@@ -1,0 +1,8 @@
+OAuth 2.0 is an authorization framework that enables third-party applications to obtain
+limited access to a user's account without exposing the user's credentials. It defines
+four roles: resource owner (the user), client (the application), authorization server
+(issues tokens), and resource server (the API). OAuth 2.0 issues access tokens that
+grant specific scopes of access and optionally refresh tokens that allow obtaining new
+access tokens without user interaction. The framework defines several grant types for
+different scenarios including the authorization code flow, client credentials flow, and
+device authorization flow.

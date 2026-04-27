@@ -1,0 +1,7 @@
+API rate limiting controls the number of requests a client can make within a time window
+to protect server resources and ensure fair usage. Common algorithms include the fixed
+window counter, sliding window log, token bucket, and leaky bucket. When a rate limit is
+exceeded, APIs typically return a 429 Too Many Requests status code along with headers
+indicating the limit, the remaining quota, and when the window resets. Clients should
+implement exponential backoff with jitter when retrying after a 429 response to avoid
+synchronized retry storms that worsen server load.

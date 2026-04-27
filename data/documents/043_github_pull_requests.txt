@@ -1,0 +1,6 @@
+A pull request on GitHub is a mechanism for proposing changes from one branch to another
+and requesting a code review before merging. Pull requests display a diff of the changed
+files and allow reviewers to leave comments on specific lines. Required status checks and
+required reviews can be enforced through branch protection rules to ensure quality gates
+are met before merging. The GitHub REST API provides endpoints for creating, updating,
+listing, and merging pull requests programmatically.

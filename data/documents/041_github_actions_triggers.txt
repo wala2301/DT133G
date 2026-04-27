@@ -1,0 +1,6 @@
+GitHub Actions workflows are triggered by events defined in the on field of a workflow
+file. Common triggers include push and pull_request for code changes, schedule for
+cron-based automation, and workflow_dispatch for manual triggering via the GitHub UI.
+Filters such as branches and paths narrow which events actually trigger a workflow. The
+workflow_call trigger allows a workflow to be reused by other workflows within the same
+or different repositories.

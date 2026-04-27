@@ -1,0 +1,5 @@
+A Docker container is a runnable instance of a Docker image. Containers are isolated
+from each other and from the host system using Linux namespaces and cgroups. They can
+be started, stopped, moved, and deleted independently of other containers. Multiple
+containers can run on the same host without interfering with each other's dependencies
+or runtime configurations.

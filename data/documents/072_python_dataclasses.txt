@@ -1,0 +1,8 @@
+Python dataclasses, introduced in Python 3.7 via the dataclasses module, automatically
+generate common special methods such as __init__, __repr__, and __eq__ based on
+class-level field annotations. A class is declared as a dataclass by applying the
+@dataclass decorator, and fields are defined with type annotations and optional default
+values. The field() function provides fine-grained control, including whether a field
+appears in __repr__ or __eq__, and whether a default factory generates mutable defaults.
+Dataclasses reduce boilerplate for classes that primarily store data and integrate well
+with Python's type checking ecosystem.

@@ -1,0 +1,6 @@
+The OpenAPI Specification (OAS) is a standard, language-agnostic interface description
+for HTTP APIs. It allows both humans and machines to understand the capabilities of a
+service without accessing source code or network traffic. An OpenAPI document describes
+available endpoints, request and response formats, authentication methods, and more.
+Tools such as Swagger UI can generate interactive documentation directly from an
+OpenAPI document.

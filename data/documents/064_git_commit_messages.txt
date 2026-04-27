@@ -1,0 +1,8 @@
+A well-written Git commit message communicates the intent of a change and serves as a
+permanent record in the project history. The widely adopted convention is to write a
+short subject line of 50 characters or fewer in the imperative mood, such as "Fix null
+pointer in auth handler", optionally followed by a blank line and a more detailed body.
+The body should explain what changed and why, not how, since the diff shows the how.
+Conventional Commits is a specification that extends this with type prefixes such as
+feat, fix, docs, or chore to enable automated changelog generation and semantic version
+bumping.

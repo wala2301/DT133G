@@ -1,0 +1,7 @@
+Dependency Injection (DI) is a design technique where an object receives its dependencies
+from an external source rather than creating them itself. This inverts the control of
+object creation from the consumer to a caller or container, following the Dependency
+Inversion Principle of SOLID. DI makes code more modular and testable because
+dependencies can be replaced with test doubles during testing without modifying the class
+under test. In Python, DI can be implemented manually by passing dependencies as
+constructor arguments, or through frameworks such as FastAPI's Depends() system.

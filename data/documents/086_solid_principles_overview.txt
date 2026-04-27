@@ -1,0 +1,7 @@
+SOLID is an acronym for five object-oriented design principles that aim to produce
+software that is easier to maintain and extend. The five principles are: Single
+Responsibility, Open/Closed, Liskov Substitution, Interface Segregation, and Dependency
+Inversion. Applying SOLID principles tends to produce smaller, more cohesive classes and
+loose coupling between modules. These principles are widely taught as software engineering
+best practices and are especially relevant when designing systems intended to evolve over
+time.

@@ -1,0 +1,7 @@
+pytest is a Python testing framework that simplifies writing and running tests with less
+boilerplate than the built-in unittest module. Test functions are discovered automatically
+if they are in files matching test_*.py or *_test.py and if their names begin with test_.
+Assertions are written using plain Python assert statements, and pytest provides detailed
+failure output with expression introspection. pytest supports a rich plugin ecosystem
+including coverage reporting via pytest-cov and parameterized tests via
+pytest.mark.parametrize.

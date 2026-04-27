@@ -1,0 +1,7 @@
+FastAPI includes a built-in dependency injection system based on function parameters
+annotated with Depends(). Dependencies are plain Python functions that return a value
+injected into the route handler. They can themselves declare dependencies, forming a
+dependency graph that FastAPI resolves automatically. Common use cases include extracting
+and validating authentication tokens, establishing database sessions, and sharing
+configuration objects across route handlers. Dependencies declared at the router or app
+level apply to all routes in that scope.

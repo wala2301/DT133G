@@ -1,0 +1,6 @@
+Python virtual environments allow developers to create isolated Python installations for
+individual projects. The built-in venv module creates a directory containing a copy of
+the Python interpreter and a separate site-packages folder, independent of the system
+installation. This prevents dependency conflicts between projects that require different
+versions of the same library. Virtual environments are activated via a shell script and
+deactivated with the deactivate command.

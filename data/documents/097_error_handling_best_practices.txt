@@ -1,0 +1,8 @@
+Robust error handling ensures that a software system behaves predictably when something
+goes wrong and provides enough information to diagnose and fix the problem. Errors should
+be caught at the appropriate level of abstraction: low-level I/O errors should be
+translated into domain-specific exceptions before they propagate to the API layer. APIs
+should return structured error responses with consistent formats rather than leaking
+internal implementation details or stack traces to clients. Errors should be logged with
+sufficient context, including request identifiers, to enable correlation across
+distributed systems.

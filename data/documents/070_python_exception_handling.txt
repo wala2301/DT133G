@@ -1,0 +1,8 @@
+Python uses exceptions to signal error conditions and provides the try/except/else/finally
+construct for handling them. Specific exception types should be caught rather than using
+a bare except clause, which would also catch system-exiting exceptions such as
+KeyboardInterrupt. The else block runs only if no exception was raised, making it
+appropriate for code that should execute only on success. Raising exceptions with
+raise...from preserves the original exception as context, aiding debugging by showing the
+full chain of causation. Custom exception classes should inherit from Exception and be
+documented so callers know when to expect them.

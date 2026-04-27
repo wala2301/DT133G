@@ -1,0 +1,6 @@
+Python's built-in json module provides functions for encoding and decoding JSON data.
+The json.dumps() function serializes a Python object to a JSON-formatted string, while
+json.loads() parses a JSON string into a Python object. The json.dump() and json.load()
+functions work with file objects for reading and writing JSON files directly. Custom
+serialization of non-standard types can be handled through the default parameter of
+json.dumps().

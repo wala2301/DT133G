@@ -1,0 +1,6 @@
+Git is a distributed version control system designed for tracking changes in source
+code during software development. Unlike centralized systems, every Git repository
+contains the full project history, enabling offline work and fast branching. Git was
+created by Linus Torvalds in 2005 and is now the most widely used version control
+system in the world. It forms the foundation of hosting platforms such as GitHub,
+GitLab, and Bitbucket.

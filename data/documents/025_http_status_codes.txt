@@ -1,0 +1,5 @@
+HTTP status codes are three-digit numbers returned by a server to indicate the result
+of a request. Codes in the 2xx range indicate success, with 200 OK being the most
+common. The 3xx range is used for redirections, 4xx for client errors such as 404
+Not Found and 401 Unauthorized, and 5xx for server-side errors. Status codes help
+clients understand whether a request succeeded and what follow-up action to take.

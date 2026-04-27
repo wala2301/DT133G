@@ -1,0 +1,7 @@
+pip is the standard package installer for Python and installs packages from the Python
+Package Index (PyPI) or other package indexes. A requirements.txt file lists package
+names and version constraints that pip uses to install a reproducible set of dependencies.
+The pip freeze command generates a requirements.txt from the currently installed packages,
+and pip install -r requirements.txt installs them. Version pinning such as requests==2.31.0
+ensures reproducibility, while compatible release specifiers such as requests~=2.31 allow
+minor updates while preventing breaking changes.

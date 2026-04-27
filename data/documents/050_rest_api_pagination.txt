@@ -1,0 +1,7 @@
+REST APIs that return collections of resources typically implement pagination to limit
+response size and reduce server load. Common strategies include offset-based pagination
+using page and per_page query parameters, cursor-based pagination using an opaque cursor
+token, and keyset-based pagination. The GitHub REST API uses Link headers with rel values
+of next, prev, first, and last to communicate pagination navigation. Cursor-based
+pagination is generally preferred over offset-based for large or frequently updated
+datasets because it provides stable results as items are inserted or deleted.

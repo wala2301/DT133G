@@ -1,0 +1,6 @@
+The requests library is the most widely used HTTP client library for Python and
+simplifies making HTTP requests compared to the built-in urllib module. It provides
+methods such as requests.get(), requests.post(), and requests.put() that correspond
+to HTTP methods. Response objects expose the status code, headers, and body, and can
+be decoded as JSON using response.json(). The library supports authentication,
+sessions, timeouts, and SSL verification out of the box.

@@ -1,0 +1,8 @@
+Microservices architecture structures an application as a collection of small,
+independently deployable services, each responsible for a specific business capability.
+Services communicate over well-defined APIs, typically HTTP REST or message queues, and
+can be developed, deployed, and scaled independently. This contrasts with a monolithic
+architecture where all functionality is bundled into a single deployable unit.
+Microservices enable technology diversity and team autonomy but introduce operational
+complexity around service discovery, distributed tracing, and data consistency across
+service boundaries.

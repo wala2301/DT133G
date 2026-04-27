@@ -1,0 +1,7 @@
+Git tags are references that mark specific commits in the repository history, most
+commonly used to record software release points. Lightweight tags are simple pointers to
+commits, while annotated tags are stored as full objects with a message, date, and tagger
+information and can be signed with GPG. GitHub Releases are built on top of Git tags and
+add release notes, binary assets, and a publish date visible in the GitHub UI. Semantic
+versioning is typically used as the tag naming convention, for example v1.2.3, to
+communicate the significance of each release to consumers.

@@ -1,0 +1,8 @@
+The authorization code flow is the most secure OAuth 2.0 grant type and is recommended
+for applications that can store a client secret. The flow begins with the client
+redirecting the user to the authorization server's authorization endpoint with a scope,
+state, and redirect URI parameter. After the user authenticates and consents, the
+authorization server redirects back with a short-lived authorization code, which the
+client exchanges at the token endpoint for an access token. PKCE (Proof Key for Code
+Exchange) should be used for public clients such as single-page applications that cannot
+store a client secret securely.

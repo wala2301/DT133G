@@ -1,0 +1,7 @@
+API documentation should give developers everything they need to integrate with an API
+without accessing the source code. Essential elements include a getting-started guide with
+a working example, a complete endpoint reference with request and response schemas, error
+code explanations, and authentication instructions. Interactive documentation tools such
+as Swagger UI, driven by an OpenAPI document, allow developers to execute requests from
+the browser. Documentation should include realistic examples and cover edge cases and rate
+limit behavior, as these are common sources of integration errors.

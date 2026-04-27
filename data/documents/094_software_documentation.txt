@@ -1,0 +1,9 @@
+Software documentation includes all written artifacts that describe a system's
+requirements, design, implementation, and usage. Internal documentation covers code-level
+artifacts such as docstrings, inline comments, and architecture decision records (ADRs),
+while external documentation covers user guides, API references, and deployment guides.
+The Divio documentation system separates documentation into four types: tutorials
+(learning-oriented), how-to guides (task-oriented), explanations (understanding-oriented),
+and reference material (information-oriented). Outdated documentation is often worse
+than none, so documentation should be maintained alongside code through docs-as-code
+practices.

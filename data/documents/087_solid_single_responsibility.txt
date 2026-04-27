@@ -1,0 +1,7 @@
+The Single Responsibility Principle (SRP) states that a class should have only one reason
+to change, meaning it should be responsible for exactly one part of the software's
+functionality. When a class handles multiple concerns, a change in one area risks breaking
+unrelated functionality and makes the class harder to understand and test. In practice,
+SRP encourages splitting large classes into smaller focused ones. For example, separating
+data access logic from business logic and presentation logic is a direct application of
+SRP and is reflected in layered architectures.

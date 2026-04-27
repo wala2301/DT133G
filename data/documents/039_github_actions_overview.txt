@@ -1,0 +1,7 @@
+GitHub Actions is a continuous integration and continuous delivery (CI/CD) platform built
+into GitHub that automates software workflows directly in a repository. Workflows are
+defined in YAML files stored in the .github/workflows directory and are triggered by
+events such as pushes, pull requests, or scheduled timers. Each workflow consists of one
+or more jobs, and each job runs a sequence of steps on a runner machine. GitHub provides
+hosted runners for Linux, Windows, and macOS, and self-hosted runners can also be
+configured for custom environments.

@@ -1,0 +1,7 @@
+Continuous Integration (CI) is the practice of frequently merging developer code changes
+into a shared repository and automatically building and testing each change. The primary
+goal is to detect integration errors as quickly as possible, reducing the cost of fixing
+them. A CI pipeline typically includes steps for installing dependencies, running linters,
+executing the test suite, and reporting results. GitHub Actions, GitLab CI/CD, and Jenkins
+are widely used CI platforms, and a passing CI build is commonly required before a pull
+request can be merged.

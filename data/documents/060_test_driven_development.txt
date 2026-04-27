@@ -1,0 +1,7 @@
+Test-driven development (TDD) is a software development practice where tests are written
+before the production code they verify. The TDD cycle consists of three steps: write a
+failing test (Red), write the minimum code to make the test pass (Green), and then
+refactor the code while keeping all tests passing (Refactor). TDD encourages small,
+incremental design decisions and produces a test suite that documents the intended
+behavior of the system. Research has shown that TDD adoption tends to reduce defect
+density at the cost of a modest increase in initial development time.

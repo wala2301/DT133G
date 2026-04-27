@@ -1,0 +1,7 @@
+The Open/Closed Principle (OCP) states that software entities should be open for
+extension but closed for modification. New behavior should be added by writing new code
+such as subclassing or implementing interfaces rather than by changing existing, tested
+code. The strategy and template method design patterns are common implementations of OCP.
+In a RAG system, a pluggable retrieval architecture where new retrieval methods can be
+added by implementing a shared BaseRetriever interface without modifying the router or
+API layer is a direct application of this principle.

@@ -1,0 +1,7 @@
+Application logging records events during program execution to support debugging,
+monitoring, and auditing. Best practices include using structured logging in JSON format
+to enable machine parsing, assigning appropriate severity levels such as DEBUG, INFO,
+WARNING, ERROR, and CRITICAL, and never logging sensitive data such as passwords or
+tokens. Log messages should include a timestamp, level, logger name, and a contextual
+message describing what happened and why it matters. Centralized log aggregation using
+tools such as the ELK stack enables searching and analysis across distributed services.

@@ -1,0 +1,7 @@
+A well-designed REST API returns informative error responses that help clients understand
+what went wrong and how to fix it. The HTTP status code should accurately reflect the
+error category, with 4xx codes for client errors and 5xx for server errors. The response
+body should include a machine-readable error code, a human-readable message, and
+optionally a details field with additional context. The RFC 7807 Problem Details
+specification defines a standard JSON format for HTTP error responses that is widely
+adopted by API designers.

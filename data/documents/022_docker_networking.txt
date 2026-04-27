@@ -1,0 +1,5 @@
+Docker provides built-in networking features that allow containers to communicate with
+each other and with external systems. The default bridge network connects containers
+on the same host, and custom networks enable DNS-based service discovery by container
+name. Host networking and overlay networks are also available for different deployment
+scenarios, including multi-host setups using Docker Swarm or Kubernetes.

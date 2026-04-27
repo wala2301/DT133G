@@ -1,0 +1,8 @@
+Software testing is the process of evaluating a software system to detect defects and
+verify that it meets specified requirements. Tests are typically organized into a
+hierarchy: unit tests verify individual functions or classes, integration tests verify
+interactions between components, and end-to-end tests verify the behavior of the entire
+system. The test pyramid model suggests writing many unit tests, fewer integration tests,
+and even fewer end-to-end tests to maintain a fast and reliable test suite. Automated
+testing is a fundamental practice in continuous integration pipelines, where tests run
+on every code change to catch regressions early.

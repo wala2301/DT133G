@@ -1,0 +1,6 @@
+GitHub webhooks allow external services to be notified when specific events occur in a
+repository or organization. When an event fires, GitHub sends an HTTP POST request with
+a JSON payload to a configured URL. Webhooks can be configured to listen for events such
+as pushes, pull requests, issues, and releases. Each delivery includes a signature header
+computed with HMAC-SHA256 that the receiving server should validate to confirm the
+payload originated from GitHub.

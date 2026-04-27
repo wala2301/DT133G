@@ -1,0 +1,6 @@
+GitHub supports a wide range of webhook event types, each corresponding to a specific
+activity in a repository or organization. The push event fires when commits are pushed
+to a branch, while pull_request fires when a PR is opened, closed, or synchronized. The
+issues event fires when an issue is created, edited, or labeled, and release fires when
+a release is published or updated. The delivery payload for each event type follows a
+documented schema available in the GitHub webhook events reference.

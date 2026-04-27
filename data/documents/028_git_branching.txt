@@ -1,0 +1,6 @@
+Branching in Git allows developers to diverge from the main line of development and
+work independently without affecting other branches. A branch is a lightweight movable
+pointer to a specific commit in the repository history. Feature branches are commonly
+used to isolate new work, which is then merged back into the main branch via pull
+requests or merge commits. Branches in Git are cheap to create and fast to switch
+between.

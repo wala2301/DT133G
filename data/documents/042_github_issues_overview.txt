@@ -1,0 +1,7 @@
+GitHub Issues is a built-in issue tracking system that allows teams to report bugs,
+request features, and discuss work items directly within a repository. Issues can be
+assigned to contributors, labeled for categorization, linked to milestones, and
+referenced in commits and pull requests. The GitHub REST API provides endpoints for
+creating, reading, updating, and closing issues programmatically. Issue templates can
+be defined in the repository to standardize the information contributors are asked to
+provide when opening new issues.

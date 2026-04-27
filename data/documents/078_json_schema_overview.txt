@@ -1,0 +1,6 @@
+JSON Schema is a vocabulary for annotating and validating the structure of JSON documents.
+A schema is itself a JSON object that describes the expected structure, types, required
+fields, and constraints of a JSON instance. Keywords such as type, properties, required,
+minimum, maximum, pattern, and enum are used to express validation rules. JSON Schema is
+the foundation for schema definitions in OpenAPI documents and is used by tools such as
+Pydantic and FastAPI to generate and validate API request and response bodies.

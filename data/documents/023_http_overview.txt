@@ -1,0 +1,7 @@
+HTTP (Hypertext Transfer Protocol) is the foundation of data communication on the
+web and follows a client-server model where clients send requests and servers return
+responses. It is a stateless, application-layer protocol, meaning no session
+information is retained between requests by default. HTTP defines request methods,
+status codes, and headers that govern how resources are fetched and transmitted.
+HTTPS is the secure version of HTTP, using TLS to encrypt traffic between client
+and server.

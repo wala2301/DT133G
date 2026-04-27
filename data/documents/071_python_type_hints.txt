@@ -1,0 +1,7 @@
+Python type hints, introduced in PEP 484, allow developers to annotate variables,
+function parameters, and return types with type information. Type hints are evaluated by
+static analysis tools such as mypy and pyright rather than at runtime, meaning they do
+not affect program execution but catch type mismatches during development. The typing
+module provides generic types such as List, Dict, Optional, and Union for annotating
+complex data structures. From Python 3.10 onwards, built-in types can be used directly
+as generic types, and the X | Y syntax replaces Union[X, Y].

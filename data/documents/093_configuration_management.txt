@@ -1,0 +1,8 @@
+Configuration management in software engineering refers to practices for tracking and
+controlling the settings that govern how a system behaves across different environments.
+Separating configuration from code allows the same deployable artifact to run in
+development, testing, staging, and production by supplying different environment variables
+or configuration files. Central configuration stores such as HashiCorp Consul or AWS
+Parameter Store provide a single source of truth for configuration in distributed systems.
+Configuration should be versioned, audited, and subject to the same access controls as
+application secrets.

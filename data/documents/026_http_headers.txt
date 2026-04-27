@@ -1,0 +1,5 @@
+HTTP headers are key-value pairs sent in both requests and responses to convey metadata
+about the message. Request headers can specify accepted content types, authentication
+credentials, and caching preferences. Response headers provide information such as
+content type, content length, and cache control directives. Headers play a central
+role in content negotiation, authentication, and cross-origin resource sharing (CORS).

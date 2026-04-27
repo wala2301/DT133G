@@ -1,0 +1,6 @@
+A GitHub Actions workflow file is written in YAML and defines the automation that runs
+in response to specified events. The top-level keys include name, on (triggers), env
+(environment variables), and jobs. Each job specifies a runs-on value to select the
+runner and contains a steps list of individual actions or shell commands. Steps can use
+pre-built community actions from the GitHub Marketplace via the uses keyword, or run
+arbitrary shell scripts using the run keyword.

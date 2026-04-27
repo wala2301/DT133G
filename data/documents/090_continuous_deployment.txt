@@ -1,0 +1,7 @@
+Continuous Deployment (CD) extends continuous integration by automatically deploying
+every change that passes the CI pipeline to a production or staging environment. This
+reduces the time from code commit to running software and makes releases routine rather
+than exceptional events. CD requires high automated test coverage and confidence in the
+pipeline to deploy without manual approval. Continuous Delivery is a related practice
+where the software is always in a deployable state but deployments are triggered manually
+by a deliberate decision rather than automatically on every passing build.

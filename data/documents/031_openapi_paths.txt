@@ -1,0 +1,6 @@
+In an OpenAPI document, the paths object defines the available API endpoints and the
+HTTP operations supported at each path. Each path item can contain operations for
+methods such as GET, POST, PUT, DELETE, and PATCH. Operations include descriptions of
+parameters, request bodies, expected responses, and security requirements. Path
+parameters, query parameters, and header parameters are all described inline within
+each operation definition.

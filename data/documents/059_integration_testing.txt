@@ -1,0 +1,7 @@
+Integration tests verify that multiple components or services interact correctly when
+combined. Unlike unit tests, integration tests use real implementations of dependencies
+such as databases, file systems, or external APIs rather than test doubles. They are
+slower than unit tests but catch defects that unit tests cannot detect, such as
+misconfigured interfaces or incorrect data serialization. In a REST API project,
+integration tests typically send HTTP requests to a running server and assert on the
+response status code, headers, and body.

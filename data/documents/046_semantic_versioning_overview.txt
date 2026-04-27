@@ -1,0 +1,7 @@
+Semantic Versioning (SemVer) is a versioning convention that assigns version numbers in
+the format MAJOR.MINOR.PATCH to software releases. A MAJOR version increment signals a
+breaking change incompatible with the previous API, a MINOR increment adds functionality
+in a backward-compatible manner, and a PATCH increment indicates backward-compatible bug
+fixes. Pre-release identifiers and build metadata can be appended after a hyphen or plus
+sign respectively. SemVer provides a shared contract between package authors and
+consumers, making it possible to manage dependency upgrades predictably.

@@ -1,0 +1,8 @@
+The Singleton design pattern ensures that a class has only one instance throughout the
+lifetime of a program and provides a global access point to that instance. It is typically
+implemented by making the constructor private and providing a static method that returns
+the single instance, creating it lazily on first access. In Python, module-level variables
+are naturally singletons because modules are imported only once, making explicit Singleton
+implementations less common. Singletons can make code harder to test because they
+introduce global state; dependency injection is often preferred as a more testable
+alternative.

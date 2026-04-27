@@ -92,9 +92,32 @@ A set of measurable and actionable objectives was defined:
 - Linking retrieval to an answer generation model **LLM**.
 
 ##### Data Objectives:
-Building a corpus from:
-- GitHub REST API documentation https://docs.github.com/en/rest
-- Stack Exchange API documentation https://api.stackexchange.com
+Building a corpus of **100 short documents** (1–3 paragraphs each) covering software
+engineering topics, collected from the following official sources:
+
+- GitHub REST API documentation — https://docs.github.com/en/rest
+- GitHub Actions documentation — https://docs.github.com/en/actions
+- GitHub Issues, Pull Requests & Webhooks — https://docs.github.com/en/webhooks
+- Stack Exchange API documentation — https://api.stackexchange.com
+- Git reference — https://git-scm.com/book
+- Semantic Versioning — https://semver.org
+- REST API design guidelines — https://restfulapi.net
+- MDN Web Docs (HTTP, CORS, caching) — https://developer.mozilla.org
+- OAuth 2.0 & JWT — https://oauth.net / https://jwt.io
+- pytest documentation — https://docs.pytest.org
+- Python standard library (logging, json, venv, typing, asyncio) — https://docs.python.org
+- FastAPI documentation — https://fastapi.tiangolo.com
+- Pydantic documentation — https://docs.pydantic.dev
+- Python packaging — https://packaging.python.org
+- Docker & Docker Compose — https://docs.docker.com
+- Microservices patterns — https://microservices.io
+- Twelve-Factor App — https://12factor.net
+- SOLID principles & design patterns — https://realpython.com / https://refactoring.guru
+- Divio documentation system — https://documentation.divio.com
+- GraphQL — https://graphql.org/learn
+
+The evaluation dataset contains **85 questions** with reference answers and relevance
+labels, covering direct, paraphrased, and indirect query types across all document topics.
 
 ##### Establish clear selection criteria:
 - Document length must be from 1 to 3 paragraphs.

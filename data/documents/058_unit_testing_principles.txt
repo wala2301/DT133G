@@ -1,0 +1,6 @@
+Unit tests verify the behavior of a single function, method, or class in isolation from
+its dependencies. Good unit tests are fast, isolated, repeatable, self-validating, and
+timely, following the FIRST principles. Dependencies are typically replaced with test
+doubles such as mocks, stubs, or fakes to isolate the unit under test. Each test should
+cover a single behavior and follow the Arrange-Act-Assert structure, making it easy to
+understand what is being tested and why a failure matters.

@@ -1,0 +1,7 @@
+Git merge and rebase are two strategies for integrating changes from one branch into
+another. Merge preserves the full history by creating a merge commit with two parents,
+making the branch topology visible in the log. Rebase replays commits from one branch
+on top of another, producing a linear history that is easier to read but rewrites commit
+hashes. Rebasing is generally preferred for local feature branches before merging to
+keep the main branch history clean, but shared branches should not be rebased because it
+rewrites history that others may have based their work on.

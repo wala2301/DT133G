@@ -1,0 +1,8 @@
+Pydantic is a Python data validation library that uses type annotations to define data
+schemas and validates data at runtime. Model classes inherit from pydantic.BaseModel and
+define fields using type-annotated class attributes, with optional defaults and validation
+constraints provided through the Field() function. When data is passed to a model
+constructor, Pydantic validates and coerces it to the declared types, raising a
+ValidationError with detailed field-level messages if the data is invalid. Pydantic v2
+rewrites the core validation engine in Rust, significantly improving performance for
+validation-heavy workloads.

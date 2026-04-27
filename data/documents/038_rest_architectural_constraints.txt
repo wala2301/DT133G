@@ -1,0 +1,8 @@
+REST (Representational State Transfer) is an architectural style for distributed
+hypermedia systems, defined by Roy Fielding in his 2000 doctoral dissertation. The
+six guiding constraints of REST are: client-server separation, statelessness,
+cacheability, uniform interface, layered system, and code on demand (optional).
+Statelessness means each request must contain all information needed to process it,
+with no session state stored on the server between requests. A uniform interface,
+including resource identification via URIs and the use of standard HTTP methods, is
+central to RESTful API design.

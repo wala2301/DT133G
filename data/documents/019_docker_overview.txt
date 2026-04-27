@@ -1,0 +1,6 @@
+Docker is an open platform for developing, shipping, and running applications inside
+isolated environments called containers. Containers package code and all dependencies
+together, ensuring consistent behavior across different machines and environments.
+Docker provides a daemon, a CLI client, and a registry (Docker Hub) for managing
+container images and workloads. It is widely used in DevOps pipelines to streamline
+deployment and infrastructure management.
