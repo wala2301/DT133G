@@ -1,0 +1,4 @@
+GitHub Sponsors allows individuals and organisations to financially support open-source developers and projects directly through GitHub.
+Sponsors can make one-time or recurring monthly contributions at tiers defined by the sponsored developer.
+Sponsored developers receive payments via Stripe, and GitHub waives its platform fee for the first year of the program.
+Sponsorship data is visible on developer profiles and can be integrated into a project's funding.yml to surface sponsor links automatically.

@@ -1,0 +1,4 @@
+GitHub code scanning analyses repository code for potential security vulnerabilities and coding errors using static analysis.
+It is powered by CodeQL, GitHub's semantic code analysis engine, which models code as a queryable database.
+Code scanning runs as a GitHub Actions workflow on events such as push and pull_request, and results appear as annotations on the affected lines.
+Custom CodeQL queries can be written to detect domain-specific issues beyond the built-in security and quality suites.

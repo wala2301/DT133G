@@ -1,0 +1,4 @@
+GitHub Discussions is a community forum embedded within a repository or organisation for open-ended conversations separate from issues and pull requests.
+Discussion categories such as Q&A, ideas, and announcements can be configured by maintainers to organise the types of posts allowed.
+In Q&A categories, community members can mark a reply as the accepted answer, making the thread searchable and clearly resolved.
+Discussions support Markdown, reactions, and threading, and can be pinned or locked by maintainers.

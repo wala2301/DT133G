@@ -1,0 +1,4 @@
+OAuth Apps allow third-party applications to authenticate as a GitHub user and act on their behalf via the OAuth 2.0 authorization code flow.
+When a user authorises an OAuth App, GitHub issues an access token that does not expire unless revoked.
+OAuth Apps request scopes such as repo, read:user, or gist to define what resources the token can access.
+Unlike GitHub Apps, OAuth App tokens carry all the permissions of the authorising user within the requested scopes, making them broader in access.

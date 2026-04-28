@@ -1,0 +1,4 @@
+The GitHub GraphQL API provides a single endpoint at https://api.github.com/graphql and allows clients to request exactly the fields they need.
+Queries retrieve data and mutations modify data; both are sent as HTTP POST requests with a JSON body containing the operation string.
+The API is strongly typed and self-documenting through an introspection schema, enabling tools like the GitHub Explorer to autocomplete queries.
+GraphQL reduces over-fetching and under-fetching compared to the REST API by letting clients specify nested resource fields in a single request.

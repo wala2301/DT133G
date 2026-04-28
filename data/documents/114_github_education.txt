@@ -1,0 +1,4 @@
+GitHub Education provides free access to GitHub's tools and developer resources for students, teachers, and academic institutions.
+The GitHub Student Developer Pack bundles offers from partner companies including cloud credits, development tools, and SaaS subscriptions at no cost.
+Teachers can create GitHub Classroom assignments that automatically provision per-student repositories from a template, track progress, and collect submissions.
+GitHub Campus Expert is a student leadership program that trains selected students to grow technical communities at their institutions.

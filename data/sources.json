@@ -98,6 +98,21 @@
   "097_error_handling_best_practices.txt": "https://fastapi.tiangolo.com/tutorial/handling-errors/",
   "098_asynchronous_programming.txt": "https://docs.python.org/3/library/asyncio.html",
   "099_python_async_await.txt": "https://docs.python.org/3/library/asyncio-task.html",
-  "100_rest_vs_graphql.txt": "https://graphql.org/learn/"
+  "100_rest_vs_graphql.txt": "https://graphql.org/learn/",
+  "101_github_get_started_overview.txt": "https://docs.github.com/en/get-started/start-your-journey/about-github-and-git",
+  "102_github_account_profile.txt": "https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github",
+  "103_github_notifications.txt": "https://docs.github.com/en/account-and-profile/managing-subscriptions-and-notifications-on-github",
+  "104_github_secret_scanning.txt": "https://docs.github.com/en/code-security/secret-scanning/about-secret-scanning",
+  "105_github_dependabot.txt": "https://docs.github.com/en/code-security/dependabot/dependabot-alerts/about-dependabot-alerts",
+  "106_github_code_scanning.txt": "https://docs.github.com/en/code-security/code-scanning/introduction-to-code-scanning/about-code-scanning",
+  "107_github_supply_chain_security.txt": "https://docs.github.com/en/code-security/supply-chain-security/understanding-your-software-supply-chain/about-supply-chain-security",
+  "108_github_apps_overview.txt": "https://docs.github.com/en/apps/creating-github-apps/about-creating-github-apps/about-github-apps",
+  "109_github_oauth_apps.txt": "https://docs.github.com/en/apps/oauth-apps/building-oauth-apps/differences-between-github-apps-and-oauth-apps",
+  "110_github_graphql_api.txt": "https://docs.github.com/en/graphql/overview/about-the-graphql-api",
+  "111_github_cli.txt": "https://docs.github.com/en/github-cli/github-cli/about-github-cli",
+  "112_github_discussions.txt": "https://docs.github.com/en/discussions/collaborating-with-your-community-using-discussions/about-discussions",
+  "113_github_sponsors.txt": "https://docs.github.com/en/sponsors/getting-started-with-github-sponsors/about-github-sponsors",
+  "114_github_education.txt": "https://docs.github.com/en/education/explore-the-benefits-of-teaching-and-learning-with-github-education/github-education-for-students/about-github-education-for-students",
+  "115_github_migrations.txt": "https://docs.github.com/en/migrations/overview/about-githubs-migration-tooling"
 
 }
