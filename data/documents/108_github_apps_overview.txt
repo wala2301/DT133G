@@ -1,0 +1,4 @@
+GitHub Apps are first-class integrations that authenticate as themselves rather than as a user, using short-lived installation tokens.
+They are installed on an organisation or repository level and are granted only the permissions they explicitly request.
+GitHub Apps can subscribe to webhook events, call the REST and GraphQL APIs, and act on behalf of users through user access tokens.
+Because their permissions are scoped and their tokens expire, GitHub Apps are the recommended integration type for automated workflows and third-party services.

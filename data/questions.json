@@ -83,5 +83,20 @@
   {"id": 82, "question": "What are the four types of documentation defined in the Divio documentation system?", "type": "direct"},
   {"id": 83, "question": "What must good API documentation always include for developers integrating with it?", "type": "direct"},
   {"id": 84, "question": "How does dependency injection make a class easier to test?", "type": "indirect"},
-  {"id": 85, "question": "What is the main difference between REST and GraphQL in how clients request data?", "type": "direct"}
+  {"id": 85, "question": "What is the main difference between REST and GraphQL in how clients request data?", "type": "direct"},
+  {"id": 86, "question": "How does GitHub secret scanning protect a repository from exposed credentials?", "type": "direct"},
+  {"id": 87, "question": "What types of dependencies does Dependabot monitor for updates and vulnerabilities?", "type": "direct"},
+  {"id": 88, "question": "How does CodeQL enable code scanning in GitHub repositories?", "type": "direct"},
+  {"id": 89, "question": "What is the difference between a GitHub App and an OAuth App?", "type": "paraphrased"},
+  {"id": 90, "question": "Why are GitHub Apps preferred over OAuth Apps for automated integrations?", "type": "indirect"},
+  {"id": 91, "question": "How does the GitHub GraphQL API differ from the REST API in how clients request data?", "type": "paraphrased"},
+  {"id": 92, "question": "What authentication method does the GitHub CLI use when logging in?", "type": "direct"},
+  {"id": 93, "question": "What makes GitHub Discussions different from Issues in a repository?", "type": "direct"},
+  {"id": 94, "question": "How can a Q&A discussion thread be marked as resolved on GitHub?", "type": "indirect"},
+  {"id": 95, "question": "What does the GitHub Student Developer Pack provide to students?", "type": "direct"},
+  {"id": 96, "question": "What tools does GitHub provide for migrating repositories from other platforms?", "type": "direct"},
+  {"id": 97, "question": "How does GitHub Sponsors support open-source developers financially?", "type": "direct"},
+  {"id": 98, "question": "What is the purpose of the GitHub dependency graph?", "type": "direct"},
+  {"id": 99, "question": "What security features are available on a GitHub account profile?", "type": "paraphrased"},
+  {"id": 100, "question": "How does push protection in GitHub secret scanning prevent credential leaks?", "type": "indirect"}
 ]

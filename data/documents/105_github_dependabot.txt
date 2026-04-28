@@ -1,0 +1,4 @@
+Dependabot is a GitHub feature that automatically opens pull requests to update outdated or vulnerable dependencies in a repository.
+It monitors package manifests such as package.json, requirements.txt, and Cargo.toml for new releases and security advisories.
+Dependabot security updates are triggered by GitHub Advisory Database entries and target only vulnerabilities, while version updates follow a configurable schedule.
+Dependency review in pull requests shows the diff of dependency changes and highlights packages with known vulnerabilities.

@@ -1,0 +1,4 @@
+GitHub is a cloud-based platform for hosting Git repositories, built on top of Git version control.
+It provides tools for code collaboration, issue tracking, project management, and automated workflows.
+Users can create public or private repositories, clone them locally, and push changes through standard Git commands.
+GitHub supports organisations, teams, and fine-grained access permissions to manage contributors on shared projects.

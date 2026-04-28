@@ -1,0 +1,4 @@
+GitHub provides migration tools for moving repositories, wikis, issues, pull requests, and project data from other platforms to GitHub.
+GitHub Importer supports migrations from Subversion, Mercurial, TFS, and other Git hosting services by importing repository history.
+The GitHub Enterprise Importer (GEI) is a CLI-based tool designed for large-scale migrations of organisations and repositories between GitHub products.
+Post-migration, contributors must re-link their commits to GitHub accounts if their email addresses differ between the source and destination.

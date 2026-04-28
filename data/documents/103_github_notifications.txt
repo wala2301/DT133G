@@ -1,0 +1,4 @@
+GitHub notifications inform users about activity on repositories they watch, issues they participate in, and pull requests assigned to them.
+Notifications can be delivered via the GitHub web interface or by email, with settings configurable per repository.
+Users can subscribe or unsubscribe from individual threads and set global defaults for how actively they are notified.
+The notification inbox supports filtering by reason, repository, and read status to reduce noise.

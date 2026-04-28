@@ -1,0 +1,4 @@
+Software supply chain security concerns the integrity and safety of all dependencies a project relies on, both direct and transitive.
+GitHub provides a dependency graph that maps all packages and their versions used by a repository based on manifest and lock files.
+Security advisories in the GitHub Advisory Database are curated and linked to CVE records, providing structured vulnerability metadata.
+Combining the dependency graph with Dependabot alerts gives developers visibility into whether any dependency version is affected by a known vulnerability.

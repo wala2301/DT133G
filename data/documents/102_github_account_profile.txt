@@ -1,0 +1,4 @@
+A GitHub account is required to contribute to repositories, open issues, and submit pull requests.
+Each account has a profile page showing contribution history, pinned repositories, and a bio.
+GitHub supports two-factor authentication and passkeys to secure accounts against unauthorised access.
+Personal access tokens and SSH keys can be added under account settings for command-line and API authentication.
