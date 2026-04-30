@@ -1,3 +1,2 @@
-GitHub recommends avoiding too many concurrent requests because this can trigger secondary
-rate limits. A safer pattern is to queue requests and process them in a more controlled
-and sequential way.
+Too many  concurrent requests can trigger secondary rate limits and therefore GitHub recommends avoiding this.
+The placing requests them in the waiting list, and process them in a more controlled and sequential way is a safer pattern.

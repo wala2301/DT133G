@@ -1,3 +1,3 @@
-GitHub recommends making authenticated requests when possible because authenticated
-requests have a higher primary rate limit. This helps integrations stay within usage
-limits and reduces the chance of unnecessary failures due to quota exhaustion.
+The GitHub recommends making authenticated requests when possible because authenticated
+requests have a higher primary rate limit.
+This helps integrations stay within usage limits and reduces the chance of unnecessary failures due to quota exhaustion.

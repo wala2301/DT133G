@@ -1,4 +1,4 @@
-GitHub recommends authenticating REST API requests when you need access to more endpoints
-or higher rate limits. Authentication can be done with different token types, such as
-personal access tokens, GitHub App tokens, or the GITHUB_TOKEN in GitHub Actions.
+GitHub recommends authenticating REST API requests when you need access to more endpoints or higher rate limits.
+Authentication can be done with different token types, such as personal access tokens, GitHub App tokens,
+or the GITHUB_TOKEN in the GitHub Actions.
 Permissions depend on the token type and endpoint.

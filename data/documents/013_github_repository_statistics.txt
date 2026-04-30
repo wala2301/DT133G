@@ -1,3 +1,2 @@
-The repository statistics endpoints expose data used by GitHub to visualize repository
-activity. These endpoints can help developers analyze contribution patterns and other
-repository-level metrics.
+The repository statistics endpoints expose data used by GitHub to visualize repository activity.
+These endpoints can help developers analyze contribution patterns and other repository-level metrics.

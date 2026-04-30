@@ -1,3 +1,4 @@
-Some repository fields require higher permissions to be visible. For example, certain
-security-related information may only appear for repository administrators or organization
-security managers. Public resources can often be accessed without authentication.
+Some repository fields require higher permissions to be visible.
+For example, certain security-related information may only appear for repository administrators or organization
+security managers.
+Public resources can often be accessed without authentication.

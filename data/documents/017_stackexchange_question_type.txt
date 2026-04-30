@@ -1,3 +1,2 @@
-In the Stack Exchange API, the question type represents a site question and can optionally
-include comments and answers. This structure is useful when building datasets that need
-both a user question and its surrounding technical context.
+In the Stack Exchange API, the question type represents a site question and can optionally include comments and answers.
+This structure is useful when building datasets that need both a user question and its surrounding technical context.

@@ -1,3 +1,2 @@
-When an integration sends many POST, PATCH, PUT, or DELETE requests, GitHub recommends
-pausing between requests. This reduces the chance of hitting secondary rate limits and
-improves stability.
+When an integration sends many POST, PATCH, PUT, or DELETE requests, GitHub recommends pausing between requests.
+This reduces the chance of hitting secondary rate limits and improves stability.

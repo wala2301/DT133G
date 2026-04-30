@@ -1,3 +1,2 @@
-GitHub REST API can be used to build integrations, retrieve data, and automate workflows.
+GitHub REST API is used to create  integrations processes, retrieve data, and automate workflows.
 It provides official documentation, versioned endpoints, and guidance for getting started.
-This document serves as the high-level entry point for the GitHub REST corpus.
