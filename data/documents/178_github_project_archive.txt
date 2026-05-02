@@ -1,0 +1,4 @@
+GitHub Projects can automatically archive items that match specific filter conditions
+defined in the workflow, such as status or last updated time.
+This process helps keep active project views clean by removing outdated work items while still preserving their
+data for future reference or restoration.

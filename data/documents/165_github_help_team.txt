@@ -1,0 +1,2 @@
+Insights in GitHub Projects help teams evaluate how long tasks take to move from one stage to another in the workflow.
+By analysing this flow, teams can better estimate future timelines and improve their planning accuracy.

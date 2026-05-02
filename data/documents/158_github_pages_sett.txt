@@ -1,0 +1,2 @@
+Setting up a custom domain correctly is essential to ensure that a GitHub Pages site is accessible without interruptions.
+Any misconfiguration in DNS or repository settings can prevent the site from loading properly under the chosen domain.

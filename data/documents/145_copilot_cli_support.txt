@@ -1,0 +1,3 @@
+Copilot CLI supports developers by integrating into existing workflows rather than
+replacing them. It enhances the development process by providing assistance at key
+points, such as task execution and code modification, within the terminal environment.

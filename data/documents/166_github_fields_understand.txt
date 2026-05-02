@@ -1,0 +1,4 @@
+Issue fields in GitHub Projects provide structured metadata for tracking work, such as
+priority, effort, dates, and custom values.
+These fields come in different types like text, number, date, and single-select to help teams organize and
+manage issues more effectively.

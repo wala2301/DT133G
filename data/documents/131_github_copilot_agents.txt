@@ -1,0 +1,4 @@
+When Copilot is used as an agent, it operates through a structured workflow where each
+task is broken down into smaller steps. This allows it to focus on one part of the
+implementation at a time, improving accuracy and making the final output easier to
+review.

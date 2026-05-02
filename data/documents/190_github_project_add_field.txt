@@ -1,0 +1,3 @@
+In GitHub Projects, users can customize their project by adding fields such as status,
+priority, or dates to better organize and track work items.
+These fields help provide more context and make it easier to manage tasks efficiently.

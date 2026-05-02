@@ -1,0 +1,3 @@
+When you assign an issue to Copilot, it can begin working autonomously in the
+background, planning and implementing the required changes. It also creates a working
+branch and prepares updates until a pull request is ready for review.

@@ -1,0 +1,3 @@
+GitHub Projects allows users to automatically add issues and pull requests to a project based on specific filters.
+Once the auto-add workflow is enabled, any new or updated items that match the defined criteria are added to
+the project without manual intervention, helping keep project boards up to date.

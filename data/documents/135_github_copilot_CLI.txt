@@ -1,0 +1,3 @@
+Copilot CLI works by interpreting natural language commands typed in the terminal and
+converting them into executable actions. This allows developers to describe what they
+want to achieve in plain language, while Copilot handles the technical implementation.

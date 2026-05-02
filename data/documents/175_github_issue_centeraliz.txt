@@ -1,0 +1,3 @@
+GitHub Projects enables teams to centralize their work by bringing together issues, pull
+requests, and notes in one shared space.
+This centralization helps improve coordination and ensures that all project-related tasks are visible and organized.

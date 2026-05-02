@@ -1,0 +1,3 @@
+GitHub Projects QuickStart guides users through creating a new project and adding
+items such as issues or pull requests to begin organizing work immediately.
+It focuses on helping teams quickly set up a structured workflow without needing advanced configuration at the start.

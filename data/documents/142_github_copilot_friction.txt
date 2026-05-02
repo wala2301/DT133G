@@ -1,0 +1,3 @@
+Copilot CLI is designed to reduce friction in development workflows by minimizing
+context switching between the terminal and other tools. This allows developers to stay
+focused within a single environment while completing multiple stages of their tasks.

@@ -1,0 +1,3 @@
+GitHub Issues act as a central place to document and track planned work, allowing teams to record details about bugs,
+enhancements, or tasks as they arise.
+This helps ensure nothing is missed during the development process.

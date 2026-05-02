@@ -1,0 +1,3 @@
+GitHub Projects is intended to help users start organizing their work immediately after
+creating a project, without requiring complex setup steps.
+This allows teams to focus on managing tasks rather than spending time configuring tools.

@@ -1,0 +1,3 @@
+GitHub Pages supports different types of custom domains, including apex domains and
+subdomains. Users can choose either option depending on how they want their website
+to be accessed, such as directly through the root domain or through a “www” prefix.

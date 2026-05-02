@@ -1,0 +1,3 @@
+Once items are added to a GitHub Project, they can be organized into different columns
+or views to represent stages of work such as “To do,” “In progress,” and “Done.” This
+structure helps teams clearly see the status of each task.

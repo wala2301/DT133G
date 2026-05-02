@@ -1,0 +1,2 @@
+Proper configuration of a custom domain ensures that GitHub Pages can reliably serve the website under the chosen domain name.
+If the setup is incorrect, users may experience access issues or be directed to the wrong location.

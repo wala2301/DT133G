@@ -1,0 +1,3 @@
+Copilot CLI interprets user requests in context, meaning it considers the current project
+state and environment before executing a task. This contextual understanding helps
+produce more relevant and accurate results compared to static command execution.

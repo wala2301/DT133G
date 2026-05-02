@@ -1,0 +1,3 @@
+Copilot CLI is designed to make advanced GitHub operations more accessible by
+allowing users to express their goals in natural language. This lowers the barrier for
+developers who may not be familiar with specific GitHub commands or syntax.

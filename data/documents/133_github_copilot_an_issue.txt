@@ -1,0 +1,3 @@
+To use Copilot as an issue agent, the repository must have the appropriate Copilot
+features enabled and the necessary permissions configured. Without these settings,
+Copilot will not be able to access or process assigned issues.

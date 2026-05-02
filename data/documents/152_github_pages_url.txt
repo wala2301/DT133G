@@ -1,0 +1,4 @@
+When a custom domain is configured for a GitHub Pages site, GitHub automatically
+serves the content through that domain once DNS settings are correctly propagated.
+This process ensures that visitors reach the hosted site without needing the default
+GitHub Pages URL.

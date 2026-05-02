@@ -1,0 +1,4 @@
+GitHub Projects Insights allows users to visualize project data through customizable charts based on issues
+and pull requests.
+These charts can show both current status and historical progress, helping teams track workflow trends
+and project performance over time.

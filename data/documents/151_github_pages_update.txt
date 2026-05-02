@@ -1,0 +1,3 @@
+After configuring a custom domain, users must update their GitHub Pages repository
+settings to include the domain name. This links the repository to the custom domain so
+that the hosted site is served through it instead of the default GitHub URL.

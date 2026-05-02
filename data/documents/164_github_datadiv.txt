@@ -1,0 +1,3 @@
+GitHub Projects insights provide data-driven visibility into how tasks move through a project, allowing teams to
+make informed decisions about prioritization and workload distribution.
+This helps ensure that resources are allocated effectively based on real progress metrics.

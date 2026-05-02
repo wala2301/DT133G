@@ -1,0 +1,6 @@
+GitHub Actions enables developers to automate complex workflows by defining jobs and steps in YAML configuration files.
+These workflows can respond to events such as code pushes, pull requests, or scheduled triggers.
+Advanced use cases include matrix builds, where tests are executed across multiple environments, and reusable workflows that promote consistency across projects.
+For example, a team can define a shared workflow for testing all repositories.
+Despite its flexibility, GitHub Actions requires careful design to avoid inefficiencies.
+Poorly optimized workflows may consume excessive resources and increase execution time, impacting overall system performance.

@@ -1,0 +1,3 @@
+GitHub Issues can be referenced in commits and pull requests, which helps connect code changes directly to the tasks or
+problems they address.
+This linkage improves traceability and makes it easier to understand the purpose behind each change.

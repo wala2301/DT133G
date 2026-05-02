@@ -1,0 +1,6 @@
+Although GitHub Copilot provides powerful code suggestions, it is not a perfect tool.
+The generated code is based on patterns learned from training data and may not always align with best practices.
+For example, Copilot might generate code that appears correct but contains subtle bugs or security vulnerabilities.
+Developers must review and test all generated code before integrating it into production systems.
+Additionally, reliance on AI-generated code may reduce a developer’s understanding of underlying logic.
+Therefore, Copilot should be used as a supportive tool rather than a replacement for human expertise.

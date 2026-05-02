@@ -1,0 +1,3 @@
+GitHub Projects best practices suggest choosing the most suitable view for the type of
+work being managed, such as board view for task tracking or table view for detailed data analysis.
+This helps teams focus on the information that matters most for their workflow.

@@ -1,0 +1,3 @@
+GitHub Copilot Chat enables developers to ask questions in natural language and receive explanations or generated code.
+Using GitHub Copilot can significantly improve developer productivity by reducing repetitive coding tasks.
+GitHub Copilot may generate incorrect or insecure code, so developers should review suggestions carefully.

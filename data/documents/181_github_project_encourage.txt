@@ -1,0 +1,3 @@
+GitHub Projects best practices encourage teams to keep all related work items connected and visible to everyone involved in the project.
+This transparency helps improve collaboration by ensuring that all members have access to the same up-to-
+date information.

@@ -1,0 +1,4 @@
+GitHub Projects is a flexible planning tool that allows users to organize work using
+different views such as tables, boards, and roadmaps.
+These views can be customized by filtering, sorting, and grouping issues and pull requests to match the team’s specific
+workflow.

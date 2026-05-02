@@ -1,0 +1,3 @@
+The GitHub Copilot CLI is a terminal-based AI tool that allows developers to interact
+with Copilot directly from the command line. It enables users to complete coding tasks,
+debug issues, and manage GitHub workflows without leaving the terminal environment.

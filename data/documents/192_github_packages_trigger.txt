@@ -1,0 +1,3 @@
+GitHub Actions can trigger workflows that automatically publish packages to GitHub
+Packages when specific events occur, such as a successful merge or release.
+This automation reduces manual steps and ensures consistency in how packages are delivered.

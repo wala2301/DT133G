@@ -1,0 +1,3 @@
+GitHub Actions can be used to automate the publishing and installation of packages as part of a CI/CD workflow.
+This allows developers to build their code, run tests, and then automatically publish a package version when
+the workflow succeeds.

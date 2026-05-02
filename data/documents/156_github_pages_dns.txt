@@ -1,0 +1,3 @@
+To correctly configure a custom domain for GitHub Pages, users must ensure that their
+DNS records are properly set up with their domain registrar.
+These records tell the internet where to find the hosted site and connect the domain to GitHub’s infrastructure.

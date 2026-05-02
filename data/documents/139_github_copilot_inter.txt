@@ -1,0 +1,3 @@
+Copilot CLI allows developers to interact with GitHub features using conversational
+prompts instead of traditional command syntax. This makes it easier for users to
+express their intent without needing to memorize complex commands.

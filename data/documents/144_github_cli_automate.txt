@@ -1,0 +1,3 @@
+Copilot CLI can automate parts of the development process by generating and
+executing actions based on user intent. This helps reduce manual steps that are usually
+required when working with repositories or code changes.

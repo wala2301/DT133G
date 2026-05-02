@@ -1,0 +1,3 @@
+Copilot CLI helps abstract away low-level command details by translating user intent
+into structured actions. This abstraction layer allows developers to focus on solving
+problems rather than focusing on the exact syntax required by each command.

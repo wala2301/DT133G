@@ -1,0 +1,3 @@
+Before starting work, Copilot receives all relevant issue data and uses it to form an
+internal understanding of the task. This helps it plan the required changes more
+accurately and reduces the need for major revisions later in the pull request.

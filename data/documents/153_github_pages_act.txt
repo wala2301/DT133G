@@ -1,0 +1,2 @@
+Custom domains in GitHub Pages act as a mapping layer between a user-owned domain and the GitHub-hosted website.
+This mapping allows the domain name to resolve to the correct server where the site content is stored.

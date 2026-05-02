@@ -1,0 +1,3 @@
+Once a custom domain is properly configured, GitHub Pages ensures that all traffic to the default GitHub Pages URL
+is redirected to the custom domain.
+This helps maintain consistency and prevents users from accessing multiple versions of the same site.

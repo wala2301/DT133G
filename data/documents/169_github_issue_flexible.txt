@@ -1,0 +1,3 @@
+GitHub Issues are highly flexible and can be adapted to different workflows depending on the project needs.
+Teams can use them for simple task tracking or integrate them into more complex project management systems with labels,
+milestones, and automation.

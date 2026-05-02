@@ -1,0 +1,2 @@
+GitHub Issues allow team members to communicate directly within a task by adding comments, updates, and references.
+This creates a centralized discussion thread where all progress, decisions, and feedback related to the issue are recorded.

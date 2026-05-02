@@ -1,0 +1,7 @@
+CI/CD pipelines are automated processes that enable continuous integration and continuous delivery in software development.
+These pipelines ensure that code changes are tested, built, and deployed in a consistent and reliable manner.
+In practice, a CI/CD pipeline might include steps such as running unit tests, building application artifacts,
+and deploying to staging or production environments.
+Tools like GitHub Actions allow developers to define these workflows using configuration files.
+While CI/CD pipelines improve development speed and quality, they can become complex to maintain.
+Misconfigured pipelines may lead to failed deployments or increased debugging time, especially in large systems.

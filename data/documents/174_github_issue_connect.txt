@@ -1,0 +1,3 @@
+GitHub Projects helps teams connect issues and pull requests directly to their planning
+boards, allowing work items to move through different stages of completion.
+This creates a visual representation of progress across the entire project lifecycle.

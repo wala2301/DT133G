@@ -1,0 +1,4 @@
+GitHub Issues provide a flexible way for teams to track work such as bugs, feature
+requests, ideas, and tasks within a repository.
+They can be linked to pull requests and other discussions, allowing teams to collaborate and keep all related
+information connected in one place.

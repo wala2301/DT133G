@@ -1,0 +1,6 @@
+GitHub Pages is a static site hosting service that allows developers to publish websites directly from a GitHub repository.
+It is commonly used for documentation, personal portfolios, and project landing pages.
+A typical workflow involves pushing HTML, CSS, and JavaScript files to a repository branch, which GitHub then serves as a live website.
+For instance, developers can create documentation for APIs and automatically update the site whenever changes are pushed.
+Although GitHub Pages is simple to use, it has limitations compared to dynamic hosting platforms.
+It does not support server-side logic, which means applications requiring backend processing must rely on external services.

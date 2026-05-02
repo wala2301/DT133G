@@ -1,0 +1,2 @@
+After creating a GitHub Project, users can immediately start adding issues and pull requests to organize their work.
+These items can then be moved across different stages of the project to reflect their current progress.

@@ -1,0 +1,4 @@
+Copilot agents can automatically generate a pull request that includes a summary of
+the changes made during task execution. This summary helps reviewers quickly
+understand the purpose and scope of the modifications without going through every
+line of code.

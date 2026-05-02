@@ -1,0 +1,3 @@
+To use a custom domain with GitHub Pages, users must configure DNS records with
+their domain provider to point to GitHub’s servers. This ensures that when visitors enter
+the custom domain, they are directed to the correct GitHub Pages site.

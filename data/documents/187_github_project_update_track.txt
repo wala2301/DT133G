@@ -1,0 +1,3 @@
+GitHub Projects allows teams to continuously update and track the status of work items as they progress.
+Changes made to issues or pull requests are automatically reflected in the project, keeping the workflow up to
+date without manual syncing.

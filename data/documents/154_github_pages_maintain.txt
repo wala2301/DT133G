@@ -1,0 +1,2 @@
+Using a custom domain with GitHub Pages allows users to maintain ownership and control over their website’s address.
+Instead of relying on a GitHub-provided URL, users can use a domain they purchased and manage independently.

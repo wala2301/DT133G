@@ -1,0 +1,3 @@
+GitHub Projects is designed to help teams visualize and manage their work in a
+structured way by bringing together related issues and pull requests.
+This organization makes it easier to understand what needs to be done and what is currently in progress.

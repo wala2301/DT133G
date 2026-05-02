@@ -1,0 +1,3 @@
+Using GitHub Packages with GitHub Actions allows developers to automatically version
+and distribute software packages as part of their workflow.
+This ensures that every successful build can produce a consistent and traceable package for future use.

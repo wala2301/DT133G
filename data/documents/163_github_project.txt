@@ -1,0 +1,3 @@
+Project insights in GitHub help teams understand how work is progressing by analyzing
+data from issues and pull requests.
+This information can highlight bottlenecks in the workflow and show where improvements are needed to increase efficiency.

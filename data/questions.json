@@ -98,5 +98,23 @@
   {"id": 97, "question": "How does GitHub Sponsors support open-source developers financially?", "type": "direct"},
   {"id": 98, "question": "What is the purpose of the GitHub dependency graph?", "type": "direct"},
   {"id": 99, "question": "What security features are available on a GitHub account profile?", "type": "paraphrased"},
-  {"id": 100, "question": "How does push protection in GitHub secret scanning prevent credential leaks?", "type": "indirect"}
+  {"id": 100, "question": "How does push protection in GitHub secret scanning prevent credential leaks?", "type": "indirect"},
+  {"id": 101, "question": "What is GitHub Copilot and how does it help developers?", "type": "direct"},
+  {"id": 102, "question": "What are the risks of using GitHub Copilot and how should developers handle them?", "type": "indirect"},
+  {"id": 103, "question": "How does GitHub Copilot handle an issue after it is assigned to it, and what does it do when the pull request is ready?", "type":  "direct"},
+  {"id": 104, "question": "Why might working directly in a local environment improve the speed of development?", "type":  "paraphrased"},
+  {"id": 105, "question": "Why can using conversational prompts reduce the learning curve for new developers?", "type":  "indirect"},
+  {"id": 106, "question": "What does Copilot CLI consider before executing a task?", "type":  "direct"},
+  {"id": 107, "question": "Why is DNS configuration necessary for directing a custom domain to a GitHub Pages site?", "type": "indirect"},
+  {"id": 108, "question": "What types of custom domains are supported by GitHub Pages?", "type": "direct"},
+  {"id": 109, "question": "Why is it important for GitHub Pages to automatically serve content through the custom domain?", "type": "indirect"},
+  {"id": 110, "question": "What types of views can be used in GitHub Projects?", "type": "direct"},
+  {"id": 111, "question": "What types of data can issue fields in GitHub Projects store?", "type": "direct"},
+  {"id": 112, "question": "Why is reducing manual updates important for maintaining large project boards?", "type": "indirect"},
+  {"id": 113, "question": "How does GitHub Projects help teams monitor their work?", "type": "direct"},
+  {"id": 114, "question": "Why does having a clear overview of tasks improve team productivity?", "type": "indirect"},
+  {"id": 115, "question": "What can users add to customize their GitHub Project?", "type": "direct"},
+  {"id": 116, "question": "How do adding fields like priority and dates improve task management in a project?", "type": "indirect"}
+
+
 ]

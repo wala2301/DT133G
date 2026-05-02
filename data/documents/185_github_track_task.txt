@@ -1,0 +1,3 @@
+GitHub Projects allows users to quickly start organizing their work by selecting a
+template or creating a blank project and then adding relevant items.
+This simple setup process helps teams begin tracking tasks without needing complex configuration.

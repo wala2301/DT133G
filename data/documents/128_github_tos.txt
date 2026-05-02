@@ -1,0 +1,4 @@
+When an issue is assigned to Copilot, the system packages the issue details, including
+the title, description, and comments, and sends them to the agent so it can understand
+the task. Copilot then uses this context to determine the best approach before making
+any code changes.

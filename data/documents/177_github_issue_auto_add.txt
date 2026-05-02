@@ -1,0 +1,4 @@
+Automatic item addition in GitHub Projects reduces the need for manual updates by
+ensuring that relevant issues and pull requests are included in the project as soon as
+they meet predefined conditions.
+This helps teams keep their project boards accurate without constant manual tracking.

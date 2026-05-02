@@ -1,0 +1,2 @@
+GitHub Projects helps teams monitor ongoing work by providing a clear overview of all tasks in one place.
+This visibility allows users to quickly identify what is in progress and what still needs attention.

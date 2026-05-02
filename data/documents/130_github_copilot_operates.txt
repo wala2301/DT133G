@@ -1,0 +1,3 @@
+Copilot operates as an agent that interacts with the repository environment, meaning it
+can work with existing project files and structure rather than starting from scratch. This
+allows it to produce changes that fit naturally within the codebase.

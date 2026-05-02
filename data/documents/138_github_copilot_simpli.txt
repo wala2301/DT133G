@@ -1,0 +1,3 @@
+Copilot CLI is built to simplify complex development tasks by allowing developers to
+delegate work to an AI assistant directly from the terminal. This reduces manual effort
+and helps automate repetitive parts of the development process.

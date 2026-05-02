@@ -1,0 +1,2 @@
+GitHub Issues enable open collaboration by allowing both repository contributors and maintainers to participate in discussions.
+This helps gather feedback, report problems, and propose improvements in a transparent and organized way.

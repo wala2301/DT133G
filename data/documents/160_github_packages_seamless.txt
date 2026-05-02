@@ -1,0 +1,3 @@
+GitHub Packages integrates with GitHub Actions to allow seamless sharing of build artifacts across workflows.
+This integration enables teams to store, manage, and reuse packages generated during automated builds within
+the same development ecosystem.

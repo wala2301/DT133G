@@ -1,0 +1,5 @@
+GitHub Projects best practices emphasize keeping communication and project
+information centralized by linking issues and pull requests and using clear updates
+throughout the workflow.
+Teams are encouraged to break down large tasks, use labels and fields consistently, and rely on automation to keep
+project data accurate and up to date.

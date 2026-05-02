@@ -1,0 +1,4 @@
+Copilot processes the assigned issue by analyzing the provided description and context
+before starting any changes. It may iterate on the solution internally, updating its
+approach as needed until it produces a complete set of modifications ready for review
+as a pull request.

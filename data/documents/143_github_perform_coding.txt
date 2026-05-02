@@ -1,0 +1,3 @@
+Copilot CLI enables developers to perform coding and repository tasks through a
+simplified interface that translates natural language into actionable steps. This reduces
+the complexity of interacting with multiple development tools separately.

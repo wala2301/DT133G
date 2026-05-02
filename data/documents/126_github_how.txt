@@ -1,0 +1,3 @@
+After Copilot completes the changes for an issue, it creates a pull request that includes
+the modifications it made. You can then review the pull request, leave feedback, and
+request additional updates if needed before merging.
