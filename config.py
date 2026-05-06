@@ -9,11 +9,10 @@ load_dotenv()
 RETRIEVAL_METHOD = os.getenv("RETRIEVAL_METHOD", "dense")
 
 
-# LLM configuration
-LLM_API_URL: str = os.getenv("LLM_API_URL")
-LLM_API_KEY: str = os.getenv("LLM_API_KEY")
-LLM_MODEL: str = os.getenv("LLM_MODEL", "gpt-4o-mini")
-LLM_TIMEOUT_SECONDS: float = float(os.getenv("LLM_TIMEOUT_SECONDS", 2.5))
+# LLM configuration (uses Ollama by default — no API key required)
+LLM_API_URL: str = os.getenv("LLM_API_URL", "http://localhost:11434/v1/chat/completions")
+LLM_MODEL: str = os.getenv("LLM_MODEL", "llama3.2")
+LLM_TIMEOUT_SECONDS: float = float(os.getenv("LLM_TIMEOUT_SECONDS", 120.0))
 
 # Retrieval configuration
 Data_DOC_PATH: Path = Path(os.getenv("Data_DOC_PATH", "data/documents")) # Document folder path
