@@ -1,10 +1,8 @@
-import os
 import httpx
 
-from config import LLM_API_URL, LLM_API_KEY, LLM_MODEL, LLM_TIMEOUT_SECONDS
+from config import LLM_API_URL, LLM_MODEL, LLM_TIMEOUT_SECONDS
 
 api_url = LLM_API_URL
-api_key = LLM_API_KEY
 model = LLM_MODEL
 http_client = httpx.Client(timeout=LLM_TIMEOUT_SECONDS)
 
@@ -20,9 +18,9 @@ def build_prompt(question: str, context: list[str]) -> str:
 
 def generate_answer(question: str, context: list[str]) -> str:
 	if not context:
-		return "No relevant medical information found."
+		return "No relevant information found."
 
-	if not api_url or not api_key:
+	if not api_url:
 		return context[0]
 
 	payload = {
@@ -41,7 +39,6 @@ def generate_answer(question: str, context: list[str]) -> str:
 	}
 
 	headers = {
-		"Authorization": f"Bearer {api_key}",
 		"Content-Type": "application/json",
 	}
 
