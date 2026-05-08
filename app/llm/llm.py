@@ -36,6 +36,7 @@ def generate_answer(question: str, context: list[str]) -> str:
 			},
 		],
 		"temperature": 0.2,
+		"stream": False
 	}
 
 	headers = {
@@ -46,7 +47,7 @@ def generate_answer(question: str, context: list[str]) -> str:
 		response = http_client.post(api_url, json=payload, headers=headers)
 		response.raise_for_status()
 		response_data = response.json()
-		content = response_data["choices"][0]["message"]["content"].strip()
+		content = response_data["message"]["content"].strip()
 		return content or context[0]
 	except (httpx.HTTPError, KeyError, IndexError, TypeError, ValueError):
 		return context[0]
