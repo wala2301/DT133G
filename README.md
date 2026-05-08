@@ -17,45 +17,53 @@
 - Uvicorn for running server
 
 ## Quick Start
-1. Create and activate a virtual environment.
-2. Install dependencies:
+1. Install and start [Ollama](https://ollama.com) locally.
+2. Pull the model:
+	```
+	ollama pull llama3.2
+	```
+3. Create and activate a virtual environment.
+4. Install dependencies:
 	```
 	pip install -r requirements.txt
 	```
-3. Create `.env` from `.env.example` and update values if needed.
-4. Start the API:
+5. Copy `.env.example` to `.env` (no changes needed for default Ollama setup):
+	```
+	cp .env.example .env
+	```
+6. Start the API:
 	```
 	uvicorn main:app --reload
 	```
-5. Run tests:
+7. Run tests:
 	```
 	python -m pytest -v
 	```
-6. Run the only retrieval evaluation for each retrieval method:
+8. Run the only retrieval evaluation for each retrieval method:
     ```
     python -m app.evaluation.run_retrieval_eval
     ```
-7. Run the evaluation for only the answer:
+9. Run the evaluation for only the answer:
     ```
    python -m app.evaluation.run_answer_eval
     ```
-8. Run the full evaluation for each retrieval method:
+10. Run the full evaluation for each retrieval method:
    ```
    python -m app.evaluation.run_full_evaluation
    ```
-9. Run a statistical comparison between methods:
+11. Run a statistical comparison between methods:
    ```
     python -m app.evaluation.run_comparison
    ```
 
 
 ## Environment Variables (.env)
-The app can run without external LLM credentials, but for full LLM integration set the values in `.env`:
+This project uses **Ollama** as the local LLM — no API key or subscription required.
+Ollama must be running locally before starting the app or running evaluations. See [ollama.com](https://ollama.com) for installation.
 
-- `LLM_API_URL` (example: `https://api.openai.com/v1/chat/completions`)
-- `LLM_API_KEY`
-- `LLM_MODEL` (default: `gpt-4o-mini`)
-- `LLM_TIMEOUT_SECONDS` (default: `2.5`)
+- `LLM_API_URL` (default: `http://localhost:11434/v1/chat/completions`)
+- `LLM_MODEL` (default: `llama3.2`)
+- `LLM_TIMEOUT_SECONDS` (default: `120`)
 - `RETRIEVAL_METHOD` (default: `tfidf`)
 - `Data_DOC_PATH` (default: `data/documents`)
 - `RETRIEVAL_TOP_K` (default: `3`)
