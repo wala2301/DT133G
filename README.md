@@ -41,11 +41,11 @@
 	```
 8. Run the only retrieval evaluation for each retrieval method:
     ```
-    python -m app.evaluation.run_retrieval_eval
+    python -m app.evaluation.run_retrieval_evaluation
     ```
 9. Run the evaluation for only the answer:
     ```
-   python -m app.evaluation.run_answer_eval
+   python -m app.evaluation.run_answer_evaluation
     ```
 10. Run the full evaluation for each retrieval method:
    ```
@@ -57,7 +57,7 @@
    ```
 12.Run a baseline evaluation 
    ```
-   python -m app.evaluation.run_llm
+   python -m app.evaluation.run_baseline_llm
    ```
 
 ## Environment Variables (.env)
