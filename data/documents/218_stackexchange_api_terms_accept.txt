@@ -1,0 +1,7 @@
+Before using API services to connect to or operate the system, you must carefully read the Terms of Use.
+Your use of or access to the APIs signifies your full agreement to abide by all the terms and conditions outlined in
+the API Agreement, as well as the Stack Exchange Terms of Service.
+If you do not agree to these terms, you must refrain from using the API services.
+Stack Exchange reserves the right to modify or update the Terms of Use at any time.
+Amendments will be effective upon publication of the updated version of the agreement.
+Access to the API services is granted to subscribers or users in accordance with the terms and conditions specified in this agreement.

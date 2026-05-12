@@ -1,0 +1,4 @@
+Some APIs use compression techniques like GZIP and DEFLATE to reduce the size of data transmitted over the network.
+Compression helps reduce bandwidth consumption and improve data transfer speeds, especially when using devices with
+limited connectivity or slow networks.
+For this reason, many systems rely on sending compressed responses by default to improve efficiency and reduce latency.

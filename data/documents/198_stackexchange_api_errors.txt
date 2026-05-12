@@ -1,0 +1,5 @@
+APIs handle various types of errors that may occur during request execution.
+Some of these errors are related to authentication and identity verification, while others occur during the invocation
+of different operations within the API.
+When an error occurs the API returns information explaining the cause of the problem, such as the error type and a
+message to help the developer understand the cause and resolve the issue correctly.

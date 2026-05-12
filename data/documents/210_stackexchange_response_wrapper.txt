@@ -1,0 +1,2 @@
+There is a standardized format shared by responses in the API, making it easy to parse.
+When a request takes longer than usual,a (backoff) field is set.

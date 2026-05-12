@@ -114,7 +114,14 @@
   {"question_id": 113, "reference_answer": "GitHub Projects helps teams monitor their work by providing a central view of all tasks, which makes it easier to track progress and identify ongoing activities.", "relevant_docs": ["191_github_project_monitor"]},
   {"question_id": 114, "reference_answer": "Having a clear overview of tasks improves team productivity, where it allows team members to quickly understand priorities, identify pending work, and coordinate their efforts more efficiently.", "relevant_docs": ["191_github_project_monitor"]},
   {"question_id": 115, "reference_answer": "The user can add special fields such as dates, status, priority, etc.", "relevant_docs": ["190_github_project_add_field"]},
-  {"question_id": 116, "reference_answer": "Adding fields makes task management easier and expends the context.", "relevant_docs": ["190_github_project_add_field"]}
-
+  {"question_id": 116, "reference_answer": "Adding fields makes task management easier and expends the context.", "relevant_docs": ["190_github_project_add_field"]},
+  {"question_id": 117, "reference_answer": "The application might resend the request when network issues prevent the response from reaching the server, even if the server successfully completed the operation.", "relevant_docs": ["193_stackexchange_request_retry"]},
+  {"question_id": 118, "reference_answer": "Detecting recurring request helps to prevent the repeated execution of operations that should only occur once, thus reducing unexpected and unintended behavior.", "relevant_docs": ["194_stackexchange_duplicate_detection"]},
+  {"question_id": 119, "reference_answer": "Through the unique request id allow APIs to recognize repeated requests and reject duplicates which helps systems avoid processing the same operation more than once.", "relevant_docs": ["195_stackexchange_request_id"]},
+  {"question_id": 120, "reference_answer": "Safe filters are used to reduce the risk of injecting malicious content into web pages and to protect applications from script injection problems.", "relevant_docs": ["197_stackexchange_safe_filters"]},
+  {"question_id": 121, "reference_answer": "APIs return error details to help developers identify the cause of the problem and correct requests or handle errors appropriately.", "relevant_docs": ["198_stackexchange_api_errors"]},
+  {"question_id": 122, "reference_answer": "Authentication and permission errors help prevent unauthorized access and ensure that operations are performed only by authorized users.", "relevant_docs": ["199_stackexchange_authentication_errors"]},
+  {"question_id": 123, "reference_answer": "Permission partitioning helps reduce security risks by granting applications only the permissions they need to perform their tasks.", "relevant_docs": ["201_stackexchange_auth_scopes"]},
+  {"question_id": 124, "reference_answer": "Ready-made JavaScript libraries help developers implement authentication easily by providing built-in functionality for managing login and obtaining access tokens.", "relevant_docs": ["204_stackexchange_js_auth"]}
 
 ]

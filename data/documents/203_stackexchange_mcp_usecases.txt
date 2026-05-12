@@ -1,0 +1,5 @@
+Some modern AI systems support integration with external knowledge sources to provide more accurate and contextual answers.
+For example, RAG-based tools or software assistants can use Stack Overflow data to provide real-world
+solutions while writing code or debugging.
+These systems also allow for the development of learning tools or software plugins that help developers access
+practical examples without leaving their work environment.

@@ -1,0 +1,5 @@
+Some authentication libraries use pop-up windows to allow users to authorize an application to access their account.
+However, the authentication process may not always be complete, as the user might close the window or leave the page
+before the process is finished.
+For this reason, applications need to handle failures or interruptions during authentication to ensure a stable and
+secure user experience.

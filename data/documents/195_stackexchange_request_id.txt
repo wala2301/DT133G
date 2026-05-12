@@ -1,0 +1,3 @@
+Unique request IDs are used to identify duplicate requests.
+When the same request ID appears again within the same period,
+the API rejects the request directly without processing it again.

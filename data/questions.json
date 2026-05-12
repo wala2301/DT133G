@@ -114,7 +114,14 @@
   {"id": 113, "question": "How does GitHub Projects help teams monitor their work?", "type": "direct"},
   {"id": 114, "question": "Why does having a clear overview of tasks improve team productivity?", "type": "indirect"},
   {"id": 115, "question": "What can users add to customize their GitHub Project?", "type": "direct"},
-  {"id": 116, "question": "How do adding fields like priority and dates improve task management in a project?", "type": "indirect"}
-
+  {"id": 116, "question": "How do adding fields like priority and dates improve task management in a project?", "type": "indirect"},
+  {"id": 117, "question": "Why might the application resend a request even though the server has already processed it?", "type": "paraphrased"},
+  {"id": 118, "question": "Why is duplicate request detection important in API systems?", "type": "indirect"},
+  {"id": 119, "question": "How can request identifiers help APIs handle repeated operations more safely?", "type": "paraphrased"},
+  {"id": 120, "question": "Why might some applications use safe filters when dealing with API data?", "type": "indirect"},
+  {"id": 121, "question": "Why do APIs return details about errors when requests fail?", "type": "indirect"},
+  {"id": 122, "question": "How do authentication and permission errors help protect API systems?","type": "paraphrased"},
+  {"id": 123, "question": "How does permission partitioning in authentication systems improve security?","type": "paraphrased"},
+  {"id": 124, "question": "How do ready-made JavaScript libraries help developers implement authentication within web applications?", "type": "paraphrased"}
 
 ]

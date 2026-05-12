@@ -1,0 +1,3 @@
+There are some operations within APIs should only be executed once, such as voting or payment processing.
+Because of that the system may create incorrect results or unexpected behavior if the same request is executed more than once.
+Some systems use mechanisms to detect duplicate requests and prevent their re-execution.

@@ -1,0 +1,5 @@
+Some platforms offer simple JavaScript libraries that help applications implement browser-side authentication without
+needing to build a complete authentication system from scratch.
+These libraries allow developers to easily integrate login and authorization into web applications,
+providing ready-made functionality for managing API access.
+Some of these libraries also rely on pop-up windows to complete the login process and securely obtain access tokens.

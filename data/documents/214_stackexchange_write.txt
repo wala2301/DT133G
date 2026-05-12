@@ -1,0 +1,2 @@
+Starting with version 2.1, the API now offers limited support for creating and editing content within Stack Exchange websites.
+A number of strict restrictions and policies have been implemented to limit misuse and maintain content quality on the platform.

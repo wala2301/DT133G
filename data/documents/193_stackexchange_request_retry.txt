@@ -1,0 +1,4 @@
+Sometimes applications that interacting with APIs fail to receive responses due to network connectivity problems that
+may occur while sending requests.
+Sometimes the request is processed successfully but due to communication problems no response is sent to the client, and
+the requests that appear to have failed often retries to improve reliability.

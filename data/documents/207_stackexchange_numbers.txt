@@ -1,0 +1,2 @@
+The API deals with integers to avoid any issues related to float numbers, and exceptions are referenced in the relevant
+type documentation pages.

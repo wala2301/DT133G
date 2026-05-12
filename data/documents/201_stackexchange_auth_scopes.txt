@@ -1,0 +1,5 @@
+Authentication systems in some application programming interfaces APIs allow applications to request different
+permissions depending on the type of data or operations required.
+For example, some applications may only need to read messages, while others need to perform write operations or access user information.
+This approach to granting permissions helps improve security and reduces the risks associated with granting applications
+more permissions than they actually need.

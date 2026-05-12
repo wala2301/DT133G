@@ -1,0 +1,4 @@
+Instead of retrieving all available fields some APIs allow applications to select only the data they need. Which helps
+to improve communication efficiency between the application and the server and reduce response times.
+To specify the required fields and pass them with requests the developers can create custom filters.
+This approach helps reduce network consumption and speed up response times, especially when handling large amounts of data.

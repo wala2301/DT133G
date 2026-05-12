@@ -55,7 +55,10 @@
    ```
     python -m app.evaluation.run_comparison
    ```
-
+12.Run a baseline evaluation 
+   ```
+   python -m app.evaluation.run_llm
+   ```
 
 ## Environment Variables (.env)
 This project uses **Ollama** as the local LLM — no API key or subscription required.
@@ -64,7 +67,7 @@ Ollama must be running locally before starting the app or running evaluations. S
 - `LLM_API_URL` (default: `http://localhost:11434/v1/chat/completions`)
 - `LLM_MODEL` (default: `llama3.2`)
 - `LLM_TIMEOUT_SECONDS` (default: `120`)
-- `RETRIEVAL_METHOD` (default: `tfidf`)
+- `RETRIEVAL_METHOD` (default: `dense`)
 - `Data_DOC_PATH` (default: `data/documents`)
 - `RETRIEVAL_TOP_K` (default: `3`)
 - `RETRIEVAL_MAX_TOP_K` (default: `10`)

@@ -1,0 +1,5 @@
+If the authentication process fails or if the user does not have the necessary permissions to access a specific process,
+some APIs may refuse to execute requests.
+For example, an error might occur if an invalid access token is sent, or if an attempts is made to access a
+function requiring additional permissions.
+This type of verification helps protect systems and prevent unauthorized access to sensitive data or processes.

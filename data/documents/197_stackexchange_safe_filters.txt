@@ -1,0 +1,6 @@
+Some APIs incorporate a concept known as safe filters, which aim to protect applications from injecting potentially
+malicious code into HTML pages.
+When safe filters are used, returned text is processed in a way that reduces the risk of script injection,
+allowing data to be displayed within web pages without requiring additional processing in many cases.
+However, some applications may choose to use insecure filters when they need raw or more detailed data,
+but they will then be responsible for processing and cleaning the content themselves.

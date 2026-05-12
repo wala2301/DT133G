@@ -1,0 +1,6 @@
+Some APIs rely on OAuth 2.0 to provide an authentication mechanism that allows applications to access user data in
+a secure and structured manner.
+The authentication process typically involves redirecting the user to a consent page, where the application is granted
+specific permissions to access certain data or perform specific operations.
+After successful authentication, the application receives an access token, which is then used to send authorized
+requests to the API without requiring the user to log in each time.

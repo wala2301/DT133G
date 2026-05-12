@@ -1,0 +1,5 @@
+Some APIs rely on HTTP headers, such as Accept-Encoding and Content-Encoding, to define how data is compressed and
+decompressed between the client and server.
+If these headers are not handled correctly, applications may encounter problems reading or interpreting data properly.
+Some proxies or network errors can also affect the compression process, so applications need to check the response
+status and handle unexpected situations.

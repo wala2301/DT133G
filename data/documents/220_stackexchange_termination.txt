@@ -1,0 +1,3 @@
+If any of the terms of the API agreement are violated, Stack Exchange reserves the right to terminate or suspend access
+to the API services without prior notice or liability.
+Upon termination of access, the uer immediately loses their right to use the API services.

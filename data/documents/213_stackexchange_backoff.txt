@@ -1,0 +1,2 @@
+The interface relies on a dynamic control mechanism to alleviate the load on certain functions.
+When a response contains a backoff field, the application must wait a specified time (in seconds) before sending a new request for the same function.

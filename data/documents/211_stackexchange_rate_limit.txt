@@ -1,0 +1,5 @@
+The number of requests arriving from each IP address is continuously monitored.
+If the number exceeds 30 requests per second from the same address, additional requests are temporarily blocked.
+The duration of the block can vary depending on the situation, but it is often between 30 seconds and several minutes.
+When this type of block occurs, there is no guarantee of the response that will be returned to the application, either
+in terms of the HTTP code or the message content, because the system considers this behavior excessive and unacceptable usage.
