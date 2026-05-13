@@ -239,7 +239,11 @@ def evaluate_full():
         "reference_answer",
         "generated_answer",
         "rouge_l",
-        "bertscore_f1"
+        "bertscore_f1",
+        "retrieval_latency",
+        "generation_latency",
+        "total_latency"
+
     ]
 
     csv_ready_rows = []
