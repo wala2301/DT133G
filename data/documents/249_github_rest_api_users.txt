@@ -1,0 +1,4 @@
+The GitHub REST API users endpoints provide access to public and authenticated user information.
+GET /user returns the profile of the currently authenticated user, including login, name, email, bio, company, followers count, and public repository count. GET /users/{username} retrieves the public profile of any GitHub user.
+Follower and following relationships are accessible via GET /users/{username}/followers and GET /users/{username}/following, both returning paginated lists of user objects. The authenticated user's social graph can be modified with PUT /user/following/{username} and DELETE /user/following/{username}.
+User repositories are listed at GET /users/{username}/repos, with query parameters to filter by type (owner, member, public, private) and sort order. The starred repositories endpoint GET /users/{username}/starred returns repositories the user has bookmarked.

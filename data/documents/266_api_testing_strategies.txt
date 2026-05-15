@@ -1,0 +1,4 @@
+API testing verifies that an API behaves correctly, handles errors gracefully, and meets its performance requirements.
+Functional tests check that each endpoint returns the correct status code, response body, and headers for valid inputs, and that it returns appropriate error responses for invalid or missing parameters. Tests should cover boundary conditions, empty collections, and authentication failure cases.
+Contract testing verifies that the API conforms to its published schema or OpenAPI specification. Tools such as Schemathesis generate test cases automatically from an OpenAPI document, exercising paths and parameters described in the spec.
+Performance tests measure response time and throughput under load. Tools such as Locust or k6 simulate concurrent users sending requests and report percentile latency (p50, p95, p99) and error rates. Performance baselines should be established early and regressions caught in CI pipelines before code reaches production.

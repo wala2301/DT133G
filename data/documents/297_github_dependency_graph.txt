@@ -1,0 +1,4 @@
+GitHub's dependency graph maps the packages that a repository depends on, extracted from manifest files and lock files in the repository.
+The dependency graph is built by parsing manifest files such as requirements.txt, setup.py, pyproject.toml, package.json, Gemfile, and pom.xml. It records the name and version of each direct and transitive dependency for each supported ecosystem.
+The dependency graph is the foundation for Dependabot alerts and the dependency review action. When a new security advisory is published in the GitHub Advisory Database, GitHub cross-references it against all dependency graphs and creates alerts for affected repositories automatically.
+The dependency graph API can be accessed through the REST API and the GitHub GraphQL API to query a repository's dependencies programmatically. This is useful for building organisation-wide inventory tools that list all packages in use and their versions across multiple repositories.

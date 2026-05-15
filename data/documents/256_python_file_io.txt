@@ -1,0 +1,4 @@
+Python's file I/O functions allow reading from and writing to files stored on the filesystem.
+Files are opened with the built-in open() function, which takes a path and a mode string: r for reading, w for writing (truncates existing content), a for appending, and b as a suffix for binary mode. The with statement should always be used to ensure the file is closed after use.
+Text files are read with read() (entire content as a string), readline() (one line at a time), or by iterating over the file object directly, which yields lines efficiently without loading the whole file into memory. write() and writelines() write string content to a file opened in write or append mode.
+For structured data, the json, csv, and configparser modules build on top of basic file I/O to handle parsing and serialisation, avoiding manual string manipulation. Binary files such as images or compiled assets use mode rb or wb and work with bytes objects rather than strings.

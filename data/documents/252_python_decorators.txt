@@ -1,0 +1,4 @@
+Python decorators are functions that wrap another function or class to extend or modify its behaviour without changing its source code.
+A decorator is applied using the @ syntax above a function definition. When Python encounters @decorator, it passes the decorated function as an argument to the decorator and replaces the original function with the return value. Decorators can be stacked, applying from the innermost outward.
+Common use cases include logging, access control, caching with functools.lru_cache, timing, input validation, and retry logic. Class-based decorators can hold state between calls and are created by implementing __call__ on the class.
+The functools.wraps decorator should be applied inside a decorator to preserve the wrapped function's __name__, __doc__, and other metadata, ensuring that introspection tools and debuggers see the original function's identity rather than the wrapper's.

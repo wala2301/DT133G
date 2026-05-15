@@ -1,0 +1,4 @@
+GitHub signs webhook payloads with an HMAC-SHA256 signature so that receivers can verify the payload originated from GitHub and was not tampered with in transit.
+When a webhook secret is configured, GitHub computes the HMAC of the raw request body using the secret as the key and includes the result in the X-Hub-Signature-256 header in the format sha256=<hex_digest>.
+The receiving server must recompute the HMAC using the same secret and compare it to the header value using a constant-time comparison function to prevent timing attacks. Requests where the signature does not match should be rejected with a 400 or 403 status.
+Webhook secrets should be long, random strings stored securely in environment variables and rotated periodically. Skipping signature verification opens the endpoint to spoofed events that could trigger unintended actions such as deployments or database changes.

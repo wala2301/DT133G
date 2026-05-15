@@ -1,0 +1,4 @@
+Python's argparse module parses command-line arguments and options, automatically generating help text and error messages.
+A parser is created with argparse.ArgumentParser(description='...'). Positional arguments are added with parser.add_argument('name') and optional arguments with parser.add_argument('--flag'). Type conversion is handled by specifying type=int or type=float. The choices parameter restricts the accepted values to a list.
+parser.parse_args() returns a Namespace object where each argument is accessible as an attribute. Subparsers allow building commands with multiple sub-commands (similar to git commit or docker run) using parser.add_subparsers().
+The ArgumentParser automatically generates a --help option that prints a formatted usage message including the description, positional arguments, and optional flags. argparse is the standard library alternative to third-party libraries such as click and typer for building command-line interfaces.

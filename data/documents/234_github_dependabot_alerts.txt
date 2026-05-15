@@ -1,0 +1,4 @@
+Dependabot alerts notify repository owners when a dependency has a known security vulnerability listed in the GitHub Advisory Database.
+GitHub automatically monitors the dependency graph of repositories with manifest files such as package.json, requirements.txt, or pom.xml. When a new advisory is published that matches a used version, an alert is created with the severity rating, affected version range, and a link to the advisory.
+Alerts can be dismissed with a reason (tolerable risk, used in tests only, etc.) and reactivated if the situation changes. Dependabot can also automatically open pull requests to update the vulnerable dependency to a patched version.
+Repository administrators can view all active Dependabot alerts under the Security tab and filter by severity, package ecosystem, or manifest file to prioritise remediation.

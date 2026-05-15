@@ -1,0 +1,4 @@
+Two-factor authentication (2FA) adds a second verification step beyond a password when signing in to GitHub.
+Supported second factors include authenticator apps (TOTP), SMS, hardware security keys (FIDO2/WebAuthn), and GitHub Mobile.
+Authenticator apps and hardware keys are strongly preferred over SMS because SIM-swapping attacks can intercept text messages.
+When 2FA is enabled, personal access tokens and SSH keys are required for command-line and API access because 2FA codes cannot be entered in non-interactive contexts. Organisation owners can require 2FA for all members as an organisation-level policy.

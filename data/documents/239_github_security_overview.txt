@@ -1,0 +1,4 @@
+The GitHub security overview provides a centralised dashboard for monitoring security alerts across all repositories in an organisation.
+From the overview, security engineers can see a summary of code scanning alerts, secret scanning alerts, and Dependabot alerts broken down by severity, repository, and alert type. This aggregated view eliminates the need to check each repository individually.
+Filters allow narrowing the view to specific teams, repositories, ecosystems, or severity levels. Trends over time can be tracked to assess whether the organisation's security posture is improving.
+The security overview is available to organisation owners and security managers and is part of the GitHub Advanced Security feature set for private repositories. It integrates with GitHub Actions status checks to surface unresolved alerts in the pull request review workflow.

@@ -1,0 +1,4 @@
+The GitHub Advisory Database is a curated dataset of security vulnerabilities affecting open-source software packages.
+Entries in the database follow the Common Vulnerabilities and Exposures (CVE) format and include the affected package, vulnerable version range, patched version, severity score using CVSS, and a description of the vulnerability. GitHub reviews and curates entries to ensure accuracy.
+The database feeds directly into Dependabot alerts, the dependency review action, and the GitHub REST and GraphQL APIs, allowing tools to programmatically query for vulnerabilities affecting specific packages and versions.
+The GitHub Advisory Database is publicly accessible and open for community contributions. Maintainers can request a CVE identifier through GitHub and submit new advisories, which are reviewed by the GitHub Security Lab before publication.

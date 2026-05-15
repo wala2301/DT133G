@@ -1,0 +1,4 @@
+SSH keys allow authentication to GitHub without entering a username and password on every operation.
+A key pair is generated locally using ssh-keygen; the public key is added to the GitHub account under Settings > SSH and GPG keys, while the private key remains on the local machine.
+GitHub supports Ed25519 and RSA keys. Ed25519 is preferred for new keys due to its smaller size and stronger security properties.
+When cloning or pushing, Git uses the SSH agent to sign the connection request. Multiple SSH keys can be associated with one GitHub account, and each key can be given a descriptive label and deleted individually if compromised.

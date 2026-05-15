@@ -1,0 +1,4 @@
+CodeQL is GitHub's code analysis engine that finds security vulnerabilities and coding errors by treating code as data.
+CodeQL compiles the source code into a queryable database that represents the program's structure, data flow, and control flow. Security researchers and developers write CodeQL queries to detect patterns that correspond to known vulnerability classes such as SQL injection, cross-site scripting, or path traversal.
+GitHub provides a library of default and extended CodeQL query suites for languages including Python, JavaScript, Java, C/C++, Go, and Ruby. These run automatically in GitHub Actions when code scanning is enabled.
+Custom CodeQL queries can be written and added to the scan to enforce organisation-specific security rules beyond the built-in library. Query results are reported as code scanning alerts linked to the exact line of source code.

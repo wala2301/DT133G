@@ -1,0 +1,4 @@
+GitHub Apps are integrations that act on their own behalf rather than as a user, making them more suitable than OAuth apps for automated workflows and organisational tooling.
+A GitHub App is registered under Settings > Developer settings > GitHub Apps. The registration defines the app's name, homepage URL, webhook URL, and the permissions it needs. Permissions are granular, covering specific resources such as repository contents, issues, pull requests, or code scanning alerts.
+When a user or organisation installs the app, they grant it access to specific repositories or all repositories. The app receives an installation ID, which it uses to obtain a short-lived installation access token by authenticating as the app using a JSON Web Token (JWT) signed with its private key.
+GitHub Apps have their own identity in the audit log and appear as a named actor rather than impersonating a user, making their actions clearly attributable and auditable.

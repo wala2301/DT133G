@@ -1,0 +1,4 @@
+GitHub Models provides access to leading AI language models directly within the GitHub platform, enabling developers to prototype and integrate AI capabilities without setting up separate accounts or infrastructure.
+The GitHub Models playground allows developers to test prompts against different models interactively, compare outputs side by side, and tune parameters such as temperature, maximum tokens, and system prompts before writing any code.
+Models are accessible through an API endpoint compatible with the OpenAI client libraries. Authentication uses a GitHub personal access token, making it straightforward to integrate into existing GitHub-based workflows and applications.
+Available models include offerings from providers such as OpenAI, Meta, Mistral, and Microsoft. Rate limits apply based on the plan tier. GitHub Models is designed for experimentation and prototyping; production workloads may require migrating to the respective provider's API directly.
