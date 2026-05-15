@@ -1,0 +1,4 @@
+Branch protection rules enforce workflow requirements on specific branches, preventing direct pushes and requiring status checks before merging.
+Rules are configured under Settings > Branches for a repository and matched to branch names using patterns such as main or release/*. Common requirements include requiring pull request reviews before merging, requiring status checks to pass, requiring linear history, and restricting who can push to the branch.
+Required status checks ensure that CI workflows such as tests and linting pass before a branch can be merged. Administrators can mark checks as strict, meaning the branch must be up to date with the base branch before the check is considered passing.
+Organisations using GitHub Enterprise or GitHub Team can enforce branch protection rules at the organisation level using rulesets, which apply consistently across multiple repositories without requiring per-repository configuration.

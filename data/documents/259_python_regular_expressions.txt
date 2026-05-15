@@ -1,0 +1,4 @@
+Python's re module provides support for regular expressions, enabling pattern matching, searching, and substitution in strings.
+A pattern is compiled with re.compile(pattern, flags) returning a reusable pattern object. Calling pattern.match() checks for a match at the start of the string, pattern.search() finds the first match anywhere in the string, and pattern.findall() returns all non-overlapping matches as a list.
+Groups capture parts of a match using parentheses. Named groups use the syntax (?P<name>...) and are retrieved from the match object with match.group('name'). Non-capturing groups (?:...) group without creating a reference.
+re.sub(pattern, replacement, string) replaces all matches of the pattern with the replacement string. Backreferences in the replacement (\1 or \g<name>) insert the content of captured groups. Raw strings (r'pattern') should be used for regex patterns to avoid double-escaping backslashes.

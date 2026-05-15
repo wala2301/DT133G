@@ -1,0 +1,4 @@
+Personal access tokens (PATs) are an alternative to passwords for authenticating to GitHub when using the API or command line.
+GitHub supports two types: classic tokens and fine-grained tokens. Fine-grained tokens allow scoping permissions to specific repositories and resource types, reducing the blast radius if a token is leaked.
+Classic tokens grant broad scopes such as repo, read:org, or workflow and apply across all repositories the user has access to.
+Tokens should be treated like passwords: stored securely, rotated regularly, and never committed to source code. GitHub automatically revokes tokens detected in public repositories through secret scanning.

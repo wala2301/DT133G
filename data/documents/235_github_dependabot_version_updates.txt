@@ -1,0 +1,4 @@
+Dependabot version updates keep dependencies up to date by automatically opening pull requests to bump dependency versions.
+Configuration is done through a dependabot.yml file in the .github directory. The file specifies the package ecosystem (pip, npm, maven, etc.), the directory containing the manifest file, and the update schedule (daily, weekly, or monthly).
+Each Dependabot pull request includes a changelog summary and compatibility score where available. Groups can be configured to batch related updates into a single pull request, reducing review overhead.
+Version update pull requests are separate from security update pull requests. Security updates are generated reactively when a vulnerability is detected, while version updates run on the configured schedule regardless of security status.

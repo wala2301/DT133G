@@ -1,0 +1,4 @@
+A security policy tells users how to responsibly report vulnerabilities in a project.
+Adding a SECURITY.md file to the root, docs, or .github directory of a repository enables the Report a vulnerability button on the repository's Security tab. GitHub displays the policy prominently to potential reporters.
+A good security policy includes the supported versions of the project, the preferred reporting channel (email address or private advisory), the expected response time, and the scope of what is considered a security issue versus a bug.
+Organisations can create a default security policy in the .github repository, which applies automatically to all repositories in the organisation that do not have their own SECURITY.md.

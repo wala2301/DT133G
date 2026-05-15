@@ -1,0 +1,4 @@
+GitHub account security settings allow users to review and control access to their account from a central location.
+The Security log under Settings > Security and analysis records authentication events, token creations, and OAuth app authorizations with timestamps and IP addresses. This log can be used to detect unauthorized access.
+Active sessions across devices can be reviewed and revoked individually. Passkeys can be registered as a passwordless authentication method, replacing the password and 2FA step in a single gesture.
+Users should periodically audit authorized OAuth apps and GitHub Apps under Settings > Applications to revoke access for tools no longer in use, reducing the attack surface on their account.

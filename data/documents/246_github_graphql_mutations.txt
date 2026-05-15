@@ -1,0 +1,4 @@
+GraphQL mutations are operations that create, update, or delete data, distinguishing them from queries which are read-only.
+A mutation is sent as a POST request with the operation keyword mutation in the query string. The mutation name and its input arguments identify the action to perform. For example, the addReaction mutation adds an emoji reaction to a subject given its node ID and the reaction content.
+Mutations return a payload object that includes the modified resource and metadata about the operation. Clients should request only the fields they need in the return payload to minimise response size.
+GitHub's GraphQL API exposes mutations for common operations such as creating issues, adding comments, merging pull requests, adding labels, and managing project items. The mutation input types are documented in GitHub's GraphQL schema explorer alongside the available arguments and return fields.

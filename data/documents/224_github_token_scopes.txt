@@ -1,0 +1,4 @@
+GitHub token scopes define the level of access granted to a personal access token or OAuth app token.
+Each scope corresponds to a set of API operations. The repo scope grants full read and write access to private and public repositories. The read:org scope allows reading organisation membership. The workflow scope permits updating GitHub Actions workflow files.
+Tokens should be issued with the minimum set of scopes required for the task, following the principle of least privilege. Unused scopes increase the potential damage if a token is exposed.
+Fine-grained personal access tokens replace broad scopes with per-repository permissions such as Contents: read, Pull requests: write, or Issues: read, providing tighter control than classic scopes.

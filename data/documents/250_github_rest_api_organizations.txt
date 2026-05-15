@@ -1,0 +1,4 @@
+The GitHub REST API organisations endpoints allow applications to read and manage organisation data, members, and teams.
+GET /orgs/{org} returns an organisation's public profile including its login, name, description, plan, and counts of public repositories and members. Authenticated members with the right scopes can also retrieve private fields such as billing email.
+GET /orgs/{org}/members lists the members of an organisation. Membership can be checked for a specific user with GET /orgs/{org}/members/{username}, which returns 204 if the user is a member or 404 if not. Members can be added or removed using the membership endpoint.
+Teams within an organisation are accessible at GET /orgs/{org}/teams and can be used to control repository access by assigning teams to repositories with specific permission levels (read, triage, write, maintain, admin).

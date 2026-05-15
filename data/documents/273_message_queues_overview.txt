@@ -1,0 +1,4 @@
+Message queues decouple the producer and consumer of work by storing messages in an intermediary until the consumer is ready to process them.
+A producer places a message on a queue; a consumer reads and processes it, then acknowledges the message so the broker can remove it. If the consumer crashes before acknowledging, the broker redelivers the message to another consumer, providing at-least-once delivery semantics.
+Message queues are used to absorb traffic spikes, distribute work across multiple worker processes, and retry failed tasks. They are also used to decouple synchronous user-facing services from slow background operations such as sending emails or processing uploaded files.
+Popular message queue systems include RabbitMQ (which implements the AMQP protocol), Redis (using its list or stream data structures), Celery with a Redis or RabbitMQ backend for Python task queues, and cloud-managed services such as AWS SQS and Google Cloud Pub/Sub.

@@ -1,0 +1,4 @@
+The GitHub REST API provides endpoints for listing, creating, and managing branches in a repository.
+GET /repos/{owner}/{repo}/branches returns all branches with their name and the SHA of the latest commit. The protected flag in each entry indicates whether branch protection rules apply. Individual branch details including protection settings are available at GET /repos/{owner}/{repo}/branches/{branch}.
+New branches can be created using the git references endpoint POST /repos/{owner}/{repo}/git/refs, supplying the branch name in the format refs/heads/branch-name and the SHA of the commit to branch from.
+Branches can be renamed with PATCH /repos/{owner}/{repo}/branches/{branch} and deleted using DELETE /repos/{owner}/{repo}/git/refs/heads/{branch}. Deleting the default branch is not permitted through the API and must be done through the repository settings.

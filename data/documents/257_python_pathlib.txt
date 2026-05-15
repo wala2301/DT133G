@@ -1,0 +1,4 @@
+The Python pathlib module provides an object-oriented interface for working with filesystem paths, replacing many use cases for os.path.
+Path objects are created with Path('some/path') and support the / operator for joining path segments, making path construction more readable than os.path.join. Path.cwd() returns the current working directory and Path.home() returns the user's home directory.
+Common operations include path.exists(), path.is_file(), path.is_dir(), path.mkdir(parents=True, exist_ok=True) for creating directories, path.read_text() and path.write_text() for reading and writing files in one call, and path.unlink() for deleting a file.
+Globbing with path.glob('**/*.py') returns a generator of matching paths. path.stem gives the filename without extension, path.suffix returns the extension, and path.parent returns the containing directory as a Path object. pathlib integrates with the standard open() function and most functions that accept file paths.

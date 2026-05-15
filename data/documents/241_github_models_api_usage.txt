@@ -1,0 +1,4 @@
+GitHub Models exposes its AI model inference through an API that follows the OpenAI chat completions interface.
+To call the API, developers send an HTTP POST request to https://models.inference.ai.azure.com/chat/completions with a GitHub personal access token in the Authorization header. The request body specifies the model name, a messages array, and optional parameters such as temperature and max_tokens.
+The response returns a JSON object containing the model's reply in the choices array, following the same structure as the OpenAI API. This means existing code that uses the openai Python library can be redirected to GitHub Models by changing the base URL and swapping the API key for a GitHub token.
+GitHub Models also supports streaming responses using server-sent events, which allows applications to display partial output incrementally rather than waiting for the full completion.

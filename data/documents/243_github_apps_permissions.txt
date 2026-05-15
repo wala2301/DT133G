@@ -1,0 +1,4 @@
+GitHub App permissions define exactly which resources and actions the app can access when installed on a repository or organisation.
+Permissions are divided into repository permissions (such as Contents, Issues, Pull requests, Metadata), organisation permissions (such as Members, Administration), and account permissions (such as Email addresses). Each permission can be set to read-only, read and write, or no access.
+Requesting only the permissions required for the app's functionality is a security best practice. Over-permissioned apps increase the damage potential if the app's credentials are compromised.
+When an app requests a change to its permissions after installation, existing installations must accept the updated permissions before the app can use them. GitHub notifies the installation's account owner so they can review the change before approving.

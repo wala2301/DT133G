@@ -1,0 +1,4 @@
+GitHub security advisories allow repository maintainers to privately report, discuss, and disclose security vulnerabilities before publishing them publicly.
+A draft advisory is created under Security > Advisories in the repository. Maintainers can invite collaborators, assign a CVE identifier through GitHub's CVE numbering authority partnership, and coordinate a fix before the advisory becomes public.
+Private forks created through the advisory workflow allow collaborators to work on a patch without revealing the vulnerability in the public fork graph.
+Once a fix is released, the advisory can be published to the GitHub Advisory Database, which feeds into Dependabot alerts and is indexed by the National Vulnerability Database. This coordinated disclosure process follows responsible disclosure best practices.

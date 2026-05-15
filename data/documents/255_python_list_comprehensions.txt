@@ -1,0 +1,4 @@
+Python list comprehensions provide a concise syntax for creating lists by applying an expression to each element of an iterable, optionally filtered by a condition.
+The basic form is [expression for item in iterable], which produces a list of the expression evaluated for each item. A conditional filter can be appended: [expression for item in iterable if condition]. Nested loops are supported by chaining multiple for clauses.
+List comprehensions are generally faster and more readable than equivalent for loops with append calls because CPython optimises their bytecode. However, they should be kept short; complex logic is better expressed as a loop for readability.
+Dictionary and set comprehensions follow the same syntax using curly braces: {key: value for ...} for dictionaries and {expression for ...} for sets. These share the same readability and performance characteristics as list comprehensions and are idiomatic Python for transforming collections.

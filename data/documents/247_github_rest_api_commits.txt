@@ -1,0 +1,4 @@
+The GitHub REST API provides endpoints for reading and writing repository commits.
+The GET /repos/{owner}/{repo}/commits endpoint returns a list of commits on the default branch or a specified branch, filtered optionally by author, path, or date range. Each commit object contains the SHA, commit message, author name and email, timestamp, and links to the tree and parent commits.
+A single commit can be retrieved with GET /repos/{owner}/{repo}/commits/{ref} where ref is a SHA, branch name, or tag. The response includes the list of files changed, with additions, deletions, and a patch showing the diff.
+The comparison endpoint GET /repos/{owner}/{repo}/compare/{base}...{head} returns the commits and file changes between two references, which is useful for computing what changed between releases or in a pull request.
