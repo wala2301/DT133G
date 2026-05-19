@@ -1,0 +1,2 @@
+retrieval_method,num_documents_in_context,avg_rouge_l,avg_bertscore_f1,avg_generation_latency,avg_total_latency
+baseline_full_context,300,0.08232808699165375,0.8441417900954976,6.293603081374849,6.293603081374849

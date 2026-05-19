@@ -1,0 +1,134 @@
+{
+  "precision@1": {
+    "overall_test": {
+      "test": "Kruskal-Wallis",
+      "statistic": 16.081731601732073,
+      "p_value": 0.00032203001551920767
+    },
+    "effect_sizes": {
+      "tfidf_vs_bm25": 0.0429374856975597,
+      "tfidf_vs_dense": -0.33762606424203473,
+      "bm25_vs_dense": -0.381207959379005
+    }
+  },
+  "precision@3": {
+    "overall_test": {
+      "test": "Kruskal-Wallis",
+      "statistic": 17.84313374935541,
+      "p_value": 0.0001334789360890053
+    },
+    "effect_sizes": {
+      "tfidf_vs_bm25": 0.23330199013943653,
+      "tfidf_vs_dense": -0.18912400818254815,
+      "bm25_vs_dense": -0.40607316744076283
+    }
+  },
+  "precision@5": {
+    "overall_test": {
+      "test": "Kruskal-Wallis",
+      "statistic": 17.84313374935541,
+      "p_value": 0.0001334789360890053
+    },
+    "effect_sizes": {
+      "tfidf_vs_bm25": 0.23330199013943628,
+      "tfidf_vs_dense": -0.18912400818254663,
+      "bm25_vs_dense": -0.4060731674407613
+    }
+  },
+  "recall@1": {
+    "overall_test": {
+      "test": "Kruskal-Wallis",
+      "statistic": 14.637974177360856,
+      "p_value": 0.0006628332626118115
+    },
+    "effect_sizes": {
+      "tfidf_vs_bm25": 0.03580866116153552,
+      "tfidf_vs_dense": -0.33032614572548674,
+      "bm25_vs_dense": -0.36618903151400684
+    }
+  },
+  "recall@3": {
+    "overall_test": {
+      "test": "Kruskal-Wallis",
+      "statistic": 14.342401616353301,
+      "p_value": 0.00076839947663773
+    },
+    "effect_sizes": {
+      "tfidf_vs_bm25": 0.2347065064722746,
+      "tfidf_vs_dense": -0.1672497144019214,
+      "bm25_vs_dense": -0.3916285933388173
+    }
+  },
+  "recall@5": {
+    "overall_test": {
+      "test": "Kruskal-Wallis",
+      "statistic": 14.342401616353301,
+      "p_value": 0.00076839947663773
+    },
+    "effect_sizes": {
+      "tfidf_vs_bm25": 0.2347065064722746,
+      "tfidf_vs_dense": -0.1672497144019214,
+      "bm25_vs_dense": -0.3916285933388173
+    }
+  },
+  "ndcg@1": {
+    "overall_test": {
+      "test": "Kruskal-Wallis",
+      "statistic": 16.081731601732073,
+      "p_value": 0.00032203001551920767
+    },
+    "effect_sizes": {
+      "tfidf_vs_bm25": 0.0429374856975597,
+      "tfidf_vs_dense": -0.33762606424203473,
+      "bm25_vs_dense": -0.381207959379005
+    }
+  },
+  "ndcg@3": {
+    "overall_test": {
+      "test": "Kruskal-Wallis",
+      "statistic": 17.262779553570503,
+      "p_value": 0.00017841651365255593
+    },
+    "effect_sizes": {
+      "tfidf_vs_bm25": 0.15560693303925846,
+      "tfidf_vs_dense": -0.32419221774554347,
+      "bm25_vs_dense": -0.4499717636153112
+    }
+  },
+  "ndcg@5": {
+    "overall_test": {
+      "test": "Kruskal-Wallis",
+      "statistic": 17.262779553570503,
+      "p_value": 0.00017841651365255593
+    },
+    "effect_sizes": {
+      "tfidf_vs_bm25": 0.15560693303925846,
+      "tfidf_vs_dense": -0.32419221774554347,
+      "bm25_vs_dense": -0.4499717636153112
+    }
+  },
+  "rouge_l": {
+    "overall_test": {
+      "test": "Kruskal-Wallis",
+      "statistic": 9.062005401689474,
+      "p_value": 0.010769871697421477
+    },
+    "effect_sizes": {
+      "tfidf_vs_bm25": 0.010418048924998884,
+      "tfidf_vs_dense": -0.2628703249336774,
+      "bm25_vs_dense": -0.2722283821375668
+    }
+  },
+  "bertscore_f1": {
+    "overall_test": {
+      "test": "Kruskal-Wallis",
+      "statistic": 9.391152224927227,
+      "p_value": 0.009135602716932353
+    },
+    "effect_sizes": {
+      "tfidf_vs_bm25": 0.05701674930436404,
+      "tfidf_vs_dense": -0.2787237134697137,
+      "bm25_vs_dense": -0.3321705583057592
+    }
+  }
+}
